@@ -2,7 +2,7 @@
 --Copyright (c) 2018 DasEtwas--
 -------------------------------
 
-airDensity         = 2.3
+airDensity         = 2.75
 sleepTime          = 5          -- how long it takes for a wing to fall asleep
 maxForce           = 80000      -- max force excerted by a wing in N
 maxJerk            = 1.4 + 0.4  -- is multiplied with velocity
