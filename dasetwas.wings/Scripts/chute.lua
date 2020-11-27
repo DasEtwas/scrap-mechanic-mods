@@ -5,6 +5,7 @@ All rights reserved
 
 dofile("airfoil.lua")
 
+sleepTime = 5
 chuteAirDensity = 2.25
 chuteMaxAcc = 12 --m/s
 maxVel = 600 -- m/s
