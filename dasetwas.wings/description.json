@@ -1,0 +1,13 @@
+{/*"dependencies" : [
+      {
+         "fileId" : 1489935400,
+         "localId" : "aaaaaaaa-abcd-aaaa-aaaa-aaaaaaaaaaaa"
+      }
+   ],*/
+   "description" : "[b][h1]Modular Wings![/h1][/b]\n\n[b]This mod is now in passive maintenance. Contact the mod author if you're interested in publishing updated versions.[/b]\nWithout prior written permission, you may not publish any contents of the mod.\n\n[h1]Your planes are terrible at gliding?[/h1]\nUse the Drag Reducer Block to reduce SM's artifical air drag:\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=1400025377\nThis mod also contains aids for checking the Center of Mass, Weight and Thrust of a creation.\n\n[h1][b]Have working wings in Scrap Mechanic![/b][/h1]\nMake propellers, planes, helicopters, whatever you can imagine!\nThis is the first and only working wings mod for Scrap Mechanic.\nAll the wings have lift proportional to their area (of the model, yes). There are no stronger or weaker ones.\n\nThe normal force on the wing is calculated using this formula:\nF = v² * airDensity * area * 0.5 * sin(a)\nairDensity = 2.75, but this may change.\n\nWings don't have additional drag.\n\n[b]Tips:[/b]\n1. Using multiple Angled Small Thing Airfoils is better for propellers because of the way lift calculations are done.\nThis way you can generate more thrust.\n\n2. To avoid having lag and collision lag, use as few modular wing parts as possible. Always build big wings with the largest possible panels, avoid having many small parts, etc.\n\nWithout prior written permission, you may not publish any contents of the mod.\n\n[b]Many thanks to Xesau, Brent Batch, shinevision, Kampftroll and Reez for helping[/b]\n\n[b]Thanks to Question Mark for flawlessly adding russian locales![/b]\n\nExample craft\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=1489899813\n\n[h2][b]Featured mods[/b][/h2]\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=1887346585\n\ntags: wings mod, wings, aero, aerodynamics, lift, airfoils, xd, plane, airplane, aircraft, fly, parachute, chute, toolbox, drag",
+   "fileId" : 1390938191,
+   "localId" : "df10d497-a28e-4413-a707-5a07813aec37",
+   "name" : "Wings",
+   "type" : "Blocks and Parts",
+   "version" : 0
+}

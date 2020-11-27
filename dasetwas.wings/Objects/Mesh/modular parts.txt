@@ -1,0 +1,29 @@
+modelname | bounding box | desc | area
+mod1 - 1x1 flat - 0.0625m²
+mod2 - 2x2 flat - 0.25m²
+mod3 - 2x2 flat rounded edge - 0.25m²
+mod4 - 2x2 flat rounded slanted edge 2x2 - 0.125m²
+mod5 - 2x2 flat rounded slanted edge 2x1 major - 0.1875m²
+mod6 - 2x2 flat rounded slanted edge 2x1 minor - 0.0625m²
+mod7 - 2x2 flat rounded curved edge from mod3 to mod6 - 0.1875m²
+mod8 - 1x1 flat rounded curved edge from mod7 to mod3 - 0.0625m²
+mod9 - 1x1 flat rounded edge - 0.0625m² (part in inventory BETWEEN mod2 AND mod3)
+mod10 - 2x2 flat rounded 90° curve - 0.196m² -> 0.1875m²
+mod11 - mod5 - 2x2 flat rounded slanted edge 2x1 major recessed major edge - 0.1875m²
+mod12 - mod9 - 1x1 flat rounded edge extruded major edge - 0.0625m²
+mod13 - lil' nub
+mod14 - 1x1 flat rounded 90° curve - 0.0625m²
+mod15 - 2x1 flat rounded slanted edge 2x1 minor recessed major edge - 0.0625m²
+mod16 - 1x1x1 T - no area
+mod17 - 1x1x1 T rounded edges - no area
+mod18 - 1x1x1 L - no area
+mod19 - 1x1x1 L rounded edges - no area
+mod20 - 1x1x1 X - no area
+mod21 - 1x1x1 X rounded edges - no area
+mod22 - 1x1x1 X rounded edges flat front - no area
+mod23 - 1x1 tapered 1 - 0.0625m²
+mod24 - 1x1 tapered 2 asym - 0.125m²
+mod25 - 2x1 tapered 1 - 0.0625m²
+mod26 - 2x1 tapered 2 asym - 0.125m²
+mod27 - 3x3 flat - 0.5625m²
+mod28 - 4x4 flat - 1.0m²
