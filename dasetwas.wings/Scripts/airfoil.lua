@@ -3,7 +3,7 @@
 -------------------------------
 
 Airfoil = class()
-Airfoil.airDensity = 2.3
+Airfoil.airDensity = 2.75
 Airfoil.sleepTime = 5           -- how long it takes for a wing to fall asleep
 Airfoil.maxForce = 80000        -- max force excerted by a wing in N
 Airfoil.maxJerk = 1.8           -- is multiplied with velocity
