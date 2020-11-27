@@ -3,8 +3,8 @@ Made by DasEtwas
 All rights reserved
 ]]--
 
-airDensity = 3.0
-torqueFac = 0.7
+airDensity = 2.3
+torqueFac = 0.98
 sleepTime = 5 -- how long it takes for a prop to fall asleep
 maxForce = 800 -- max force excerted by a prop in N
 maxJerk = 4
