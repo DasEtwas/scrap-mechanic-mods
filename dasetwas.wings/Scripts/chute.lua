@@ -52,7 +52,7 @@ Chute1.sleep = movementSleep
 Chute1.closeAnimPos = nil
 Chute1.poseWeight1 = 0
 Chute1.poseWeight2 = 0
-Chute1.angVelFac = 0.7
+Chute1.angVelFac = 1.0
 
 function Chute1.server_onFixedUpdate(self, dt)
 	if self.interactable:getSingleParent() then
@@ -119,7 +119,7 @@ function Chute1.server_onFixedUpdate(self, dt)
 		sm.vec3.setZ(angvel, 0)
 		
 		local bodyMass = self.shape:getBody():getMass()
-		local angVelFac = self.angVelFac * math.min(1, bodyMass / 250) 
+		local angVelFac = self.angVelFac
 		local globalVel = sm.shape.getVelocity(self.shape) + angvel:cross(sm.shape.getUp(self.shape):normalize() * self.pos) * angVelFac
 		local globalVelL = globalVel:length()
 		
@@ -156,8 +156,10 @@ function Chute1.server_onFixedUpdate(self, dt)
 			if chuteForceL / bodyMass > chuteMaxAcc then
 				chuteForce = chuteForce * ((chuteMaxAcc / bodyMass) / chuteForceL)
 			end
-			
-			sm.physics.applyImpulse(self.shape, chuteForce, true, (self.shape.worldPosition - currentPos) * angVelFac * 0.9)
+
+			local offset = self.shape.worldPosition - currentPos
+			sm.physics.applyTorque(self.shape:getBody(), offset:cross(chuteForce) * 0.8, true)
+			sm.physics.applyImpulse(self.shape, chuteForce, true, nil)
 		end
 	end
 	
