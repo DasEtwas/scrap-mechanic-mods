@@ -1,0 +1,612 @@
+{
+    "partList": [
+        {
+            "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a102a",
+            "renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/airfoil1cardboardD.png",
+                                    "$MOD_DATA/Objects/Textures/airfoil1cardboardA.png",
+                                    "$MOD_DATA/Objects/Textures/airfoil1cardboardN.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/airfoilBigWide.obj"
+                    }
+                ]
+            },
+            "scripted": {
+                "filename": "$MOD_DATA/Scripts/airfoil.lua",
+                "classname": "Airfoil",
+                "data": {
+                    "area": 1.0,
+                    "angle": 0
+                }
+            },
+            "color": "a48052",
+            "hull": {
+                "x": 4,
+                "y": 1,
+                "z": 4,
+                "margin": 0.05,
+                "pointList": [
+                    {
+                        "x": 1,
+                        "y": 0,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -1,
+                        "y": 0,
+                        "z": 0.93
+                    },
+                    {
+                        "x": 0.22,
+                        "y": 0.66,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -0.71,
+                        "y": 0.94,
+                        "z": 0.93
+                    },
+                    {
+                        "x": 0.22,
+                        "y": -0.66,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -0.71,
+                        "y": -0.94,
+                        "z": 0.93
+                    },
+                    {
+                        "x": 1,
+                        "y": 0,
+                        "z": -0.93
+                    },
+                    {
+                        "x": -1,
+                        "y": 0,
+                        "z": -0.93
+                    },
+                    {
+                        "x": 0.22,
+                        "y": 0.66,
+                        "z": -0.93
+                    },
+                    {
+                        "x": -0.71,
+                        "y": 0.94,
+                        "z": -0.93
+                    },
+                    {
+                        "x": 0.22,
+                        "y": -0.66,
+                        "z": -0.93
+                    },
+                    {
+                        "x": -0.71,
+                        "y": -0.94,
+                        "z": -0.93
+                    }
+                ]
+            },
+            "density": 140.0,
+            "physicsMaterial": "Cardboard",
+            "qualityLevel": 1,
+            "sticky": "-Z+Z",
+            "rotationSet": "PropZ",
+            "flammable": true
+        },
+        {
+            "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a110a",
+            "renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/airfoilSmallCardboardD.png",
+                                    "$MOD_DATA/Objects/Textures/airfoilSmallCardboardA.png",
+                                    "$MOD_DATA/Objects/Textures/airfoilSmallCardboardN.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/airfoilSmallAngle00.obj"
+                    }
+                ]
+            },
+            "scripted": {
+                "filename": "$MOD_DATA/Scripts/airfoil.lua",
+                "classname": "Airfoil",
+                "data": {
+                    "area": 0.0625,
+                    "angle": 0
+                }
+            },
+            "color": "a48052",
+            "hull": {
+                "x": 1,
+                "y": 1,
+                "z": 1,
+                "margin": 0.05,
+                "pointList": [
+                    {
+                        "x": -1,
+                        "y": 0,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -0.71,
+                        "y": -0.47,
+                        "z": 0.93
+                    },
+                    {
+                        "x": 0.22,
+                        "y": -0.33,
+                        "z": 0.93
+                    },
+                    {
+                        "x": 1,
+                        "y": 0,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -0.71,
+                        "y": 0.47,
+                        "z": 0.93
+                    },
+                    {
+                        "x": 0.22,
+                        "y": 0.33,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -1,
+                        "y": 0,
+                        "z": -0.93
+                    },
+                    {
+                        "x": -0.71,
+                        "y": -0.47,
+                        "z": -0.93
+                    },
+                    {
+                        "x": 0.22,
+                        "y": -0.33,
+                        "z": -0.93
+                    },
+                    {
+                        "x": 1,
+                        "y": 0,
+                        "z": -0.93
+                    },
+                    {
+                        "x": -0.71,
+                        "y": 0.47,
+                        "z": -0.93
+                    },
+                    {
+                        "x": 0.22,
+                        "y": 0.33,
+                        "z": -0.93
+                    }
+                ]
+            },
+            "density": 140.0,
+            "physicsMaterial": "Cardboard",
+            "qualityLevel": 1,
+            "sticky": "-Z+Z",
+            "rotationSet": "PropZ",
+            "flammable": true
+        },
+        {
+            "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a109a",
+            "renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/airfoil1cardboardD.png",
+                                    "$MOD_DATA/Objects/Textures/airfoil1cardboardA.png",
+                                    "$MOD_DATA/Objects/Textures/airfoil1cardboardN.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/airfoilBigThin.obj"
+                    }
+                ]
+            },
+            "scripted": {
+                "filename": "$MOD_DATA/Scripts/airfoil.lua",
+                "classname": "Airfoil",
+                "data": {
+                    "area": 0.25,
+                    "angle": 0
+                }
+            },
+            "color": "a48052",
+            "hull": {
+                "x": 4,
+                "y": 1,
+                "z": 1,
+                "margin": 0.05,
+                "pointList": [
+                    {
+                        "x": -0.965,
+                        "y": 0.183176,
+                        "z": -0.86
+                    },
+                    {
+                        "x": -0.550587,
+                        "y": 0.500002,
+                        "z": -0.86
+                    },
+                    {
+                        "x": -0.550587,
+                        "y": -0.499998,
+                        "z": -0.86
+                    },
+                    {
+                        "x": -0.550587,
+                        "y": 0.499998,
+                        "z": 0.86
+                    },
+                    {
+                        "x": 0.965,
+                        "y": -2.0E-6,
+                        "z": 0.86
+                    },
+                    {
+                        "x": -0.965,
+                        "y": -0.183172,
+                        "z": -0.86
+                    },
+                    {
+                        "x": -0.965,
+                        "y": -0.183176,
+                        "z": 0.86
+                    },
+                    {
+                        "x": -0.965,
+                        "y": 0.183172,
+                        "z": 0.86
+                    },
+                    {
+                        "x": 0.965,
+                        "y": 2.0E-6,
+                        "z": -0.86
+                    },
+                    {
+                        "x": -0.550587,
+                        "y": -0.500002,
+                        "z": 0.86
+                    }
+                ]
+            },
+            "density": 140.0,
+            "physicsMaterial": "Cardboard",
+            "qualityLevel": 1,
+            "sticky": "-Z+Z",
+            "rotationSet": "PropZ",
+            "flammable": true
+        },
+        {
+            "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a111a",
+            "renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/airfoilSmallCardboardD.png",
+                                    "$MOD_DATA/Objects/Textures/airfoilSmallCardboardA.png",
+                                    "$MOD_DATA/Objects/Textures/airfoilSmallCardboardN.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/airfoilSmallAngle15.obj"
+                    }
+                ]
+            },
+            "scripted": {
+                "filename": "$MOD_DATA/Scripts/airfoil.lua",
+                "classname": "Airfoil",
+                "data": {
+                    "area": 0.0625,
+                    "angle": 15
+                }
+            },
+            "color": "a48052",
+            "hull": {
+                "x": 1,
+                "y": 1,
+                "z": 1,
+                "margin": 0.05,
+                "pointList": [
+                    {
+                        "x": -0.965,
+                        "y": 0.258,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -0.716,
+                        "y": 0.070,
+                        "z": 0.93
+                    },
+                    {
+                        "x": 0.191,
+                        "y": 0.136,
+                        "z": 0.93
+                    },
+                    {
+                        "x": 0.965,
+                        "y": -0.258,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -0.233,
+                        "y": 0.022,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -0.655,
+                        "y": 0.297,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -0.965,
+                        "y": 0.258,
+                        "z": -0.93
+                    },
+                    {
+                        "x": -0.716,
+                        "y": 0.070,
+                        "z": -0.93
+                    },
+                    {
+                        "x": 0.191,
+                        "y": 0.136,
+                        "z": -0.93
+                    },
+                    {
+                        "x": 0.965,
+                        "y": -0.258,
+                        "z": -0.93
+                    },
+                    {
+                        "x": -0.233,
+                        "y": 0.022,
+                        "z": -0.93
+                    },
+                    {
+                        "x": -0.655,
+                        "y": 0.297,
+                        "z": -0.93
+                    }
+                ]
+            },
+            "density": 140.0,
+            "physicsMaterial": "Cardboard",
+            "qualityLevel": 1,
+            "sticky": "-Z+Z",
+            "rotationSet": "PropZZm",
+            "flammable": true
+        },
+        {
+            "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a112a",
+            "renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/airfoilSmallCardboardD.png",
+                                    "$MOD_DATA/Objects/Textures/airfoilSmallCardboardA.png",
+                                    "$MOD_DATA/Objects/Textures/airfoilSmallCardboardN.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/airfoilSmallAngle30.obj"
+                    }
+                ]
+            },
+            "scripted": {
+                "filename": "$MOD_DATA/Scripts/airfoil.lua",
+                "classname": "Airfoil",
+                "data": {
+                    "area": 0.0625,
+                    "angle": 30
+                }
+            },
+            "color": "a48052",
+            "hull": {
+                "x": 1,
+                "y": 1,
+                "z": 1,
+                "margin": 0.05,
+                "pointList": [
+                    {
+                        "x": -0.866,
+                        "y": 0.5,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -0.673,
+                        "y": 0.253,
+                        "z": 0.93
+                    },
+                    {
+                        "x": 0.149,
+                        "y": -0.181,
+                        "z": 0.93
+                    },
+                    {
+                        "x": 0.866,
+                        "y": -0.5,
+                        "z": 0.93
+                    },
+                    {
+                        "x": 0.231,
+                        "y": -0.038,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -0.556,
+                        "y": 0.456,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -0.866,
+                        "y": 0.5,
+                        "z": -0.93
+                    },
+                    {
+                        "x": -0.673,
+                        "y": 0.253,
+                        "z": -0.93
+                    },
+                    {
+                        "x": 0.149,
+                        "y": -0.181,
+                        "z": -0.93
+                    },
+                    {
+                        "x": 0.866,
+                        "y": -0.5,
+                        "z": -0.93
+                    },
+                    {
+                        "x": 0.231,
+                        "y": -0.038,
+                        "z": -0.93
+                    },
+                    {
+                        "x": -0.556,
+                        "y": 0.456,
+                        "z": -0.93
+                    }
+                ]
+            },
+            "density": 140.0,
+            "physicsMaterial": "Cardboard",
+            "qualityLevel": 1,
+            "sticky": "-Z+Z",
+            "rotationSet": "PropZZm",
+            "flammable": true
+        },
+        {
+            "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a113a",
+            "renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/airfoilSmallCardboardD.png",
+                                    "$MOD_DATA/Objects/Textures/airfoilSmallCardboardA.png",
+                                    "$MOD_DATA/Objects/Textures/airfoilSmallCardboardN.png"
+                                ],
+                                "material": "DifAsgNor"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/airfoilSmallAngle45.obj"
+                    }
+                ]
+            },
+            "scripted": {
+                "filename": "$MOD_DATA/Scripts/airfoil.lua",
+                "classname": "Airfoil",
+                "data": {
+                    "area": 0.0625,
+                    "angle": 45
+                }
+            },
+            "color": "a48052",
+            "hull": {
+                "x": 1,
+                "y": 1,
+                "z": 1,
+                "margin": 0.05,
+                "pointList": [
+                    {
+                        "x": -0.707,
+                        "y": 0.707,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -0.585,
+                        "y": 0.418,
+                        "z": 0.93
+                    },
+                    {
+                        "x": 0.097,
+                        "y": -0.213,
+                        "z": 0.93
+                    },
+                    {
+                        "x": 0.707,
+                        "y": -0.707,
+                        "z": 0.93
+                    },
+                    {
+                        "x": 0.213,
+                        "y": -0.097,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -0.418,
+                        "y": 0.585,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -0.707,
+                        "y": 0.707,
+                        "z": -0.93
+                    },
+                    {
+                        "x": -0.585,
+                        "y": 0.418,
+                        "z": -0.93
+                    },
+                    {
+                        "x": 0.097,
+                        "y": -0.213,
+                        "z": -0.93
+                    },
+                    {
+                        "x": 0.707,
+                        "y": -0.707,
+                        "z": -0.93
+                    },
+                    {
+                        "x": 0.213,
+                        "y": -0.097,
+                        "z": -0.93
+                    },
+                    {
+                        "x": -0.418,
+                        "y": 0.585,
+                        "z": -0.93
+                    }
+                ]
+            },
+            "density": 140.0,
+            "physicsMaterial": "Cardboard",
+            "qualityLevel": 1,
+            "sticky": "-Z+Z",
+            "rotationSet": "PropZ",
+            "flammable": true
+        }
+    ]
+}
