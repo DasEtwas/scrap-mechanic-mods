@@ -1,6 +1,206 @@
 {
     "partList": [
         {
+            "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a100a",
+            "renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/airfoil1D.png",
+                                    "$MOD_DATA/Objects/Textures/airfoil1A.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/airfoilBigWide.obj"
+                    }
+                ]
+            },
+            "scripted": {
+                "filename": "$MOD_DATA/Scripts/airfoil.lua",
+                "classname": "Airfoil",
+                "data": {
+                    "area": 1.0,
+                    "angle": 0
+                }
+            },
+            "color": "c36512",
+            "hull": {
+                "x": 4,
+                "y": 1,
+                "z": 4,
+                "margin": 0.05,
+                "pointList": [
+                    {
+                        "x": 1,
+                        "y": 0,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -1,
+                        "y": 0,
+                        "z": 0.93
+                    },
+                    {
+                        "x": 0.22,
+                        "y": 0.66,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -0.71,
+                        "y": 0.94,
+                        "z": 0.93
+                    },
+                    {
+                        "x": 0.22,
+                        "y": -0.66,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -0.71,
+                        "y": -0.94,
+                        "z": 0.93
+                    },
+                    {
+                        "x": 1,
+                        "y": 0,
+                        "z": -0.93
+                    },
+                    {
+                        "x": -1,
+                        "y": 0,
+                        "z": -0.93
+                    },
+                    {
+                        "x": 0.22,
+                        "y": 0.66,
+                        "z": -0.93
+                    },
+                    {
+                        "x": -0.71,
+                        "y": 0.94,
+                        "z": -0.93
+                    },
+                    {
+                        "x": 0.22,
+                        "y": -0.66,
+                        "z": -0.93
+                    },
+                    {
+                        "x": -0.71,
+                        "y": -0.94,
+                        "z": -0.93
+                    }
+                ]
+            },
+            "density": 120.0,
+            "physicsMaterial": "Metal",
+            "sticky": "-Z+Z",
+            "rotationSet": "PropZ"
+        },
+        {
+            "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a104a",
+            "renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/airfoil1D.png",
+                                    "$MOD_DATA/Objects/Textures/airfoil1A.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/airfoilSmallAngle00.obj"
+                    }
+                ]
+            },
+            "scripted": {
+                "filename": "$MOD_DATA/Scripts/airfoil.lua",
+                "classname": "Airfoil",
+                "data": {
+                    "area": 0.0625,
+                    "angle": 0
+                }
+            },
+            "color": "c36512",
+            "hull": {
+                "x": 1,
+                "y": 1,
+                "z": 1,
+                "margin": 0.05,
+                "pointList": [
+                    {
+                        "x": -1,
+                        "y": 0,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -0.71,
+                        "y": -0.47,
+                        "z": 0.93
+                    },
+                    {
+                        "x": 0.22,
+                        "y": -0.33,
+                        "z": 0.93
+                    },
+                    {
+                        "x": 1,
+                        "y": 0,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -0.71,
+                        "y": 0.47,
+                        "z": 0.93
+                    },
+                    {
+                        "x": 0.22,
+                        "y": 0.33,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -1,
+                        "y": 0,
+                        "z": -0.93
+                    },
+                    {
+                        "x": -0.71,
+                        "y": -0.47,
+                        "z": -0.93
+                    },
+                    {
+                        "x": 0.22,
+                        "y": -0.33,
+                        "z": -0.93
+                    },
+                    {
+                        "x": 1,
+                        "y": 0,
+                        "z": -0.93
+                    },
+                    {
+                        "x": -0.71,
+                        "y": 0.47,
+                        "z": -0.93
+                    },
+                    {
+                        "x": 0.22,
+                        "y": 0.33,
+                        "z": -0.93
+                    }
+                ]
+            },
+            "density": 120.0,
+            "physicsMaterial": "Metal",
+            "sticky": "-Z+Z",
+            "rotationSet": "PropZ"
+        },
+        {
             "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a101a",
             "renderable": {
                 "lodList": [
@@ -23,10 +223,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.25,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.5,
-                    "chord": 0.125
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -126,10 +323,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.25,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.5,
-                    "chord": 0.125
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -219,10 +413,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.0625,
-                    "sleep": 0,
-                    "angle": 15,
-                    "width": 0.125,
-                    "chord": 0.125
+                    "angle": 15
                 }
             },
             "color": "c36512",
@@ -322,10 +513,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.0625,
-                    "sleep": 0,
-                    "angle": 30,
-                    "width": 0.125,
-                    "chord": 0.125
+                    "angle": 30
                 }
             },
             "color": "c36512",
@@ -425,10 +613,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.0625,
-                    "sleep": 0,
-                    "angle": 45,
-                    "width": 0.125,
-                    "chord": 0.125
+                    "angle": 45
                 }
             },
             "color": "c36512",
@@ -528,10 +713,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.25,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.5,
-                    "chord": 0.125
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -649,416 +831,6 @@
             "rotationSet": "PropZZm"
         },
         {
-            "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a109a",
-            "renderable": {
-                "lodList": [
-                    {
-                        "subMeshList": [
-                            {
-                                "textureList": [
-                                    "$MOD_DATA/Objects/Textures/airfoil1cardboardD.png",
-                                    "$MOD_DATA/Objects/Textures/airfoil1cardboardA.png",
-                                    "$MOD_DATA/Objects/Textures/airfoil1cardboardN.png"
-                                ],
-                                "material": "DifAsgNor"
-                            }
-                        ],
-                        "mesh": "$MOD_DATA/Objects/Mesh/airfoilBigThin.obj"
-                    }
-                ]
-            },
-            "scripted": {
-                "filename": "$MOD_DATA/Scripts/airfoil.lua",
-                "classname": "Airfoil",
-                "data": {
-                    "area": 0.25,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.5,
-                    "chord": 0.125
-                }
-            },
-            "color": "a48052",
-            "hull": {
-                "x": 4,
-                "y": 1,
-                "z": 1,
-                "margin": 0.05,
-                "pointList": [
-                    {
-                        "x": -0.965,
-                        "y": 0.183176,
-                        "z": -0.86
-                    },
-                    {
-                        "x": -0.550587,
-                        "y": 0.500002,
-                        "z": -0.86
-                    },
-                    {
-                        "x": -0.550587,
-                        "y": -0.499998,
-                        "z": -0.86
-                    },
-                    {
-                        "x": -0.550587,
-                        "y": 0.499998,
-                        "z": 0.86
-                    },
-                    {
-                        "x": 0.965,
-                        "y": -2.0E-6,
-                        "z": 0.86
-                    },
-                    {
-                        "x": -0.965,
-                        "y": -0.183172,
-                        "z": -0.86
-                    },
-                    {
-                        "x": -0.965,
-                        "y": -0.183176,
-                        "z": 0.86
-                    },
-                    {
-                        "x": -0.965,
-                        "y": 0.183172,
-                        "z": 0.86
-                    },
-                    {
-                        "x": 0.965,
-                        "y": 2.0E-6,
-                        "z": -0.86
-                    },
-                    {
-                        "x": -0.550587,
-                        "y": -0.500002,
-                        "z": 0.86
-                    }
-                ]
-            },
-            "density": 140.0,
-            "physicsMaterial": "Cardboard",
-            "qualityLevel": 1,
-            "sticky": "-Z+Z",
-            "rotationSet": "PropZ"
-        },
-        {
-            "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a111a",
-            "renderable": {
-                "lodList": [
-                    {
-                        "subMeshList": [
-                            {
-                                "textureList": [
-                                    "$MOD_DATA/Objects/Textures/airfoilSmallCardboardD.png",
-                                    "$MOD_DATA/Objects/Textures/airfoilSmallCardboardA.png",
-                                    "$MOD_DATA/Objects/Textures/airfoilSmallCardboardN.png"
-                                ],
-                                "material": "DifAsgNor"
-                            }
-                        ],
-                        "mesh": "$MOD_DATA/Objects/Mesh/airfoilSmallAngle15.obj"
-                    }
-                ]
-            },
-            "scripted": {
-                "filename": "$MOD_DATA/Scripts/airfoil.lua",
-                "classname": "Airfoil",
-                "data": {
-                    "area": 0.0625,
-                    "sleep": 0,
-                    "angle": 15,
-                    "width": 0.125,
-                    "chord": 0.125
-                }
-            },
-            "color": "a48052",
-            "hull": {
-                "x": 1,
-                "y": 1,
-                "z": 1,
-                "margin": 0.05,
-                "pointList": [
-                    {
-                        "x": -0.965,
-                        "y": 0.258,
-                        "z": 0.93
-                    },
-                    {
-                        "x": -0.716,
-                        "y": 0.070,
-                        "z": 0.93
-                    },
-                    {
-                        "x": 0.191,
-                        "y": 0.136,
-                        "z": 0.93
-                    },
-                    {
-                        "x": 0.965,
-                        "y": -0.258,
-                        "z": 0.93
-                    },
-                    {
-                        "x": -0.233,
-                        "y": 0.022,
-                        "z": 0.93
-                    },
-                    {
-                        "x": -0.655,
-                        "y": 0.297,
-                        "z": 0.93
-                    },
-                    {
-                        "x": -0.965,
-                        "y": 0.258,
-                        "z": -0.93
-                    },
-                    {
-                        "x": -0.716,
-                        "y": 0.070,
-                        "z": -0.93
-                    },
-                    {
-                        "x": 0.191,
-                        "y": 0.136,
-                        "z": -0.93
-                    },
-                    {
-                        "x": 0.965,
-                        "y": -0.258,
-                        "z": -0.93
-                    },
-                    {
-                        "x": -0.233,
-                        "y": 0.022,
-                        "z": -0.93
-                    },
-                    {
-                        "x": -0.655,
-                        "y": 0.297,
-                        "z": -0.93
-                    }
-                ]
-            },
-            "density": 140.0,
-            "physicsMaterial": "Cardboard",
-            "qualityLevel": 1,
-            "sticky": "-Z+Z",
-            "rotationSet": "PropZZm"
-        },
-        {
-            "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a112a",
-            "renderable": {
-                "lodList": [
-                    {
-                        "subMeshList": [
-                            {
-                                "textureList": [
-                                    "$MOD_DATA/Objects/Textures/airfoilSmallCardboardD.png",
-                                    "$MOD_DATA/Objects/Textures/airfoilSmallCardboardA.png",
-                                    "$MOD_DATA/Objects/Textures/airfoilSmallCardboardN.png"
-                                ],
-                                "material": "DifAsgNor"
-                            }
-                        ],
-                        "mesh": "$MOD_DATA/Objects/Mesh/airfoilSmallAngle30.obj"
-                    }
-                ]
-            },
-            "scripted": {
-                "filename": "$MOD_DATA/Scripts/airfoil.lua",
-                "classname": "Airfoil",
-                "data": {
-                    "area": 0.0625,
-                    "sleep": 0,
-                    "angle": 30,
-                    "width": 0.125,
-                    "chord": 0.125
-                }
-            },
-            "color": "a48052",
-            "hull": {
-                "x": 1,
-                "y": 1,
-                "z": 1,
-                "margin": 0.05,
-                "pointList": [
-                    {
-                        "x": -0.866,
-                        "y": 0.5,
-                        "z": 0.93
-                    },
-                    {
-                        "x": -0.673,
-                        "y": 0.253,
-                        "z": 0.93
-                    },
-                    {
-                        "x": 0.149,
-                        "y": -0.181,
-                        "z": 0.93
-                    },
-                    {
-                        "x": 0.866,
-                        "y": -0.5,
-                        "z": 0.93
-                    },
-                    {
-                        "x": 0.231,
-                        "y": -0.038,
-                        "z": 0.93
-                    },
-                    {
-                        "x": -0.556,
-                        "y": 0.456,
-                        "z": 0.93
-                    },
-                    {
-                        "x": -0.866,
-                        "y": 0.5,
-                        "z": -0.93
-                    },
-                    {
-                        "x": -0.673,
-                        "y": 0.253,
-                        "z": -0.93
-                    },
-                    {
-                        "x": 0.149,
-                        "y": -0.181,
-                        "z": -0.93
-                    },
-                    {
-                        "x": 0.866,
-                        "y": -0.5,
-                        "z": -0.93
-                    },
-                    {
-                        "x": 0.231,
-                        "y": -0.038,
-                        "z": -0.93
-                    },
-                    {
-                        "x": -0.556,
-                        "y": 0.456,
-                        "z": -0.93
-                    }
-                ]
-            },
-            "density": 140.0,
-            "physicsMaterial": "Cardboard",
-            "qualityLevel": 1,
-            "sticky": "-Z+Z",
-            "rotationSet": "PropZZm"
-        },
-        {
-            "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a113a",
-            "renderable": {
-                "lodList": [
-                    {
-                        "subMeshList": [
-                            {
-                                "textureList": [
-                                    "$MOD_DATA/Objects/Textures/airfoilSmallCardboardD.png",
-                                    "$MOD_DATA/Objects/Textures/airfoilSmallCardboardA.png",
-                                    "$MOD_DATA/Objects/Textures/airfoilSmallCardboardN.png"
-                                ],
-                                "material": "DifAsgNor"
-                            }
-                        ],
-                        "mesh": "$MOD_DATA/Objects/Mesh/airfoilSmallAngle45.obj"
-                    }
-                ]
-            },
-            "scripted": {
-                "filename": "$MOD_DATA/Scripts/airfoil.lua",
-                "classname": "Airfoil",
-                "data": {
-                    "area": 0.0625,
-                    "sleep": 0,
-                    "angle": 45,
-                    "width": 0.125,
-                    "chord": 0.125
-                }
-            },
-            "color": "a48052",
-            "hull": {
-                "x": 1,
-                "y": 1,
-                "z": 1,
-                "margin": 0.05,
-                "pointList": [
-                    {
-                        "x": -0.707,
-                        "y": 0.707,
-                        "z": 0.93
-                    },
-                    {
-                        "x": -0.585,
-                        "y": 0.418,
-                        "z": 0.93
-                    },
-                    {
-                        "x": 0.097,
-                        "y": -0.213,
-                        "z": 0.93
-                    },
-                    {
-                        "x": 0.707,
-                        "y": -0.707,
-                        "z": 0.93
-                    },
-                    {
-                        "x": 0.213,
-                        "y": -0.097,
-                        "z": 0.93
-                    },
-                    {
-                        "x": -0.418,
-                        "y": 0.585,
-                        "z": 0.93
-                    },
-                    {
-                        "x": -0.707,
-                        "y": 0.707,
-                        "z": -0.93
-                    },
-                    {
-                        "x": -0.585,
-                        "y": 0.418,
-                        "z": -0.93
-                    },
-                    {
-                        "x": 0.097,
-                        "y": -0.213,
-                        "z": -0.93
-                    },
-                    {
-                        "x": 0.707,
-                        "y": -0.707,
-                        "z": -0.93
-                    },
-                    {
-                        "x": 0.213,
-                        "y": -0.097,
-                        "z": -0.93
-                    },
-                    {
-                        "x": -0.418,
-                        "y": 0.585,
-                        "z": -0.93
-                    }
-                ]
-            },
-            "density": 140.0,
-            "physicsMaterial": "Cardboard",
-            "qualityLevel": 1,
-            "sticky": "-Z+Z",
-            "rotationSet": "PropZ"
-        },
-        {
             "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a114a",
             "renderable": {
                 "lodList": [
@@ -1081,10 +853,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.65,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.375,
-                    "chord": 0.5
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -1234,10 +1003,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.25,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.5,
-                    "chord": 0.125
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -1357,10 +1123,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.0625,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.125,
-                    "chord": 0.125
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -1440,10 +1203,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.25,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.5,
-                    "chord": 0.125
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -1523,10 +1283,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.5625,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.75,
-                    "chord": 0.75
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -1606,10 +1363,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 1,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.5,
-                    "chord": 0.5
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -1689,10 +1443,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.0625,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.125,
-                    "chord": 0.125
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -1772,10 +1523,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.25,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.5,
-                    "chord": 0.125
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -1855,10 +1603,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.125,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.3535,
-                    "chord": 0.3535
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -1928,10 +1673,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.1875,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.433,
-                    "chord": 0.433
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -2011,10 +1753,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.0625,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.125,
-                    "chord": 0.125
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -2084,10 +1823,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.1875,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.433,
-                    "chord": 0.433
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -2167,10 +1903,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.0625,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.125,
-                    "chord": 0.125
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -2240,10 +1973,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.1875,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.433,
-                    "chord": 0.433
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -2333,10 +2063,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.1875,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.433,
-                    "chord": 0.433
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -2416,10 +2143,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.0625,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.125,
-                    "chord": 0.125
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -2625,10 +2349,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.0625,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.125,
-                    "chord": 0.125
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -2698,10 +2419,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.0625,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.125,
-                    "chord": 0.125
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -3483,10 +3201,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.0625,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.125,
-                    "chord": 0.125
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -3556,10 +3271,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.0625,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.125,
-                    "chord": 0.125
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -3629,10 +3341,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.125,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.3535,
-                    "chord": 0.3535
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -3702,10 +3411,7 @@
                 "classname": "Airfoil",
                 "data": {
                     "area": 0.125,
-                    "sleep": 0,
-                    "angle": 0,
-                    "width": 0.3535,
-                    "chord": 0.3535
+                    "angle": 0
                 }
             },
             "color": "c36512",
@@ -3751,434 +3457,6 @@
             "physicsMaterial": "Metal",
             "sticky": "-Z-X+X-Y",
             "rotationSet": "ModWingTaperedAsym"
-        },
-        {
-            "uuid": "7c1c01b8-fd9f-4774-9c20-6ae640681100",
-            "renderable": {
-                "lodList": [
-                    {
-                        "subMeshList": [
-                            {
-                                "textureList": [
-                                    "$MOD_DATA/Objects/Textures/prop1D.png",
-                                    "$MOD_DATA/Objects/Textures/prop1A.png",
-                                    "$MOD_DATA/Objects/Textures/prop1N.png"
-                                ],
-                                "material": "DifAsgNor"
-                            }
-                        ],
-                        "mesh": "$MOD_DATA/Objects/Mesh/prop1ccw.obj"
-                    }
-                ]
-            },
-            "scripted": {
-                "filename": "$MOD_DATA/Scripts/propeller.lua",
-                "classname": "Prop1"
-            },
-            "color": "191919",
-            "hull": {
-                "x": 1,
-                "y": 1,
-                "z": 7,
-                "margin": 0.05,
-                "pointList": [
-                    {
-                        "x": 0.86,
-                        "y": -0.687496,
-                        "z": -0.075721994
-                    },
-                    {
-                        "x": 0.86,
-                        "y": -0.687496,
-                        "z": 0.075721994
-                    },
-                    {
-                        "x": 0.794118,
-                        "y": 0.338232,
-                        "z": 0.06549771
-                    },
-                    {
-                        "x": 0.794118,
-                        "y": 0.338232,
-                        "z": -0.06549771
-                    },
-                    {
-                        "x": 0.0,
-                        "y": -0.687496,
-                        "z": 0.15144429
-                    },
-                    {
-                        "x": -0.86,
-                        "y": -0.687496,
-                        "z": 0.075721994
-                    },
-                    {
-                        "x": -0.794118,
-                        "y": 0.338232,
-                        "z": 0.06549771
-                    },
-                    {
-                        "x": -0.86,
-                        "y": -0.687496,
-                        "z": -0.075721994
-                    },
-                    {
-                        "x": 0.0,
-                        "y": -0.687496,
-                        "z": -0.15144429
-                    },
-                    {
-                        "x": -0.794118,
-                        "y": 0.338232,
-                        "z": -0.06549771
-                    },
-                    {
-                        "x": 0.0,
-                        "y": 0.86,
-                        "z": 0.0
-                    },
-                    {
-                        "x": -0.215676,
-                        "y": -0.224346,
-                        "z": 0.98
-                    },
-                    {
-                        "x": -0.702722,
-                        "y": -0.296982,
-                        "z": 0.98
-                    },
-                    {
-                        "x": 0.215676,
-                        "y": -0.224338,
-                        "z": -0.98
-                    },
-                    {
-                        "x": 0.702722,
-                        "y": -0.296974,
-                        "z": -0.98
-                    }
-                ]
-            },
-            "density": 700.0,
-            "physicsMaterial": "Metal",
-            "sticky": "-Y",
-            "rotationSet": "PropY"
-        },
-        {
-            "uuid": "7c1c01b8-fd9f-4774-9c20-6ae640681101",
-            "renderable": {
-                "lodList": [
-                    {
-                        "subMeshList": [
-                            {
-                                "textureList": [
-                                    "$MOD_DATA/Objects/Textures/prop1D.png",
-                                    "$MOD_DATA/Objects/Textures/prop1A.png",
-                                    "$MOD_DATA/Objects/Textures/prop1N.png"
-                                ],
-                                "material": "DifAsgNor"
-                            }
-                        ],
-                        "mesh": "$MOD_DATA/Objects/Mesh/prop1cw.obj"
-                    }
-                ]
-            },
-            "scripted": {
-                "filename": "$MOD_DATA/Scripts/propeller.lua",
-                "classname": "Prop1_2"
-            },
-            "color": "191919",
-            "hull": {
-                "x": 1,
-                "y": 1,
-                "z": 7,
-                "margin": 0.05,
-                "pointList": [
-                    {
-                        "x": -0.86,
-                        "y": -0.687496,
-                        "z": -0.075721994
-                    },
-                    {
-                        "x": -0.86,
-                        "y": -0.687496,
-                        "z": 0.075721994
-                    },
-                    {
-                        "x": -0.794118,
-                        "y": 0.338232,
-                        "z": 0.06549771
-                    },
-                    {
-                        "x": -0.794118,
-                        "y": 0.338232,
-                        "z": -0.06549771
-                    },
-                    {
-                        "x": 0.0,
-                        "y": -0.687496,
-                        "z": 0.15144429
-                    },
-                    {
-                        "x": 0.86,
-                        "y": -0.687496,
-                        "z": 0.075721994
-                    },
-                    {
-                        "x": 0.794118,
-                        "y": 0.338232,
-                        "z": 0.06549771
-                    },
-                    {
-                        "x": 0.86,
-                        "y": -0.687496,
-                        "z": -0.075721994
-                    },
-                    {
-                        "x": 0.0,
-                        "y": -0.687496,
-                        "z": -0.15144429
-                    },
-                    {
-                        "x": 0.794118,
-                        "y": 0.338232,
-                        "z": -0.06549771
-                    },
-                    {
-                        "x": 0.0,
-                        "y": 0.86,
-                        "z": 0.0
-                    },
-                    {
-                        "x": 0.215676,
-                        "y": -0.224344,
-                        "z": 0.98
-                    },
-                    {
-                        "x": 0.702722,
-                        "y": -0.29698,
-                        "z": 0.98
-                    },
-                    {
-                        "x": -0.215676,
-                        "y": -0.22434,
-                        "z": -0.98
-                    },
-                    {
-                        "x": -0.702722,
-                        "y": -0.296976,
-                        "z": -0.98
-                    }
-                ]
-            },
-            "density": 700.0,
-            "physicsMaterial": "Metal",
-            "sticky": "-Y",
-            "rotationSet": "PropY"
-        },
-        {
-            "uuid": "7c1c01b8-fd9f-4774-9c20-6ae640681102",
-            "renderable": {
-                "lodList": [
-                    {
-                        "subMeshList": [
-                            {
-                                "textureList": [
-                                    "$MOD_DATA/Objects/Textures/prop1D.png",
-                                    "$MOD_DATA/Objects/Textures/prop1A.png",
-                                    "$MOD_DATA/Objects/Textures/prop1N.png"
-                                ],
-                                "material": "DifAsgNor"
-                            }
-                        ],
-                        "mesh": "$MOD_DATA/Objects/Mesh/prop2ccw.obj"
-                    }
-                ]
-            },
-            "scripted": {
-                "filename": "$MOD_DATA/Scripts/propeller.lua",
-                "classname": "Prop2"
-            },
-            "color": "191919",
-            "hull": {
-                "x": 9,
-                "y": 1,
-                "z": 9,
-                "margin": 0.05,
-                "pointList": [
-                    {
-                        "x": 0.094626,
-                        "y": -0.687496,
-                        "z": 0.070145555
-                    },
-                    {
-                        "x": 0.10806089,
-                        "y": -0.687496,
-                        "z": -0.046875555
-                    },
-                    {
-                        "x": 0.013434889,
-                        "y": -0.687496,
-                        "z": -0.11702134
-                    },
-                    {
-                        "x": -0.094626,
-                        "y": -0.687496,
-                        "z": -0.070145555
-                    },
-                    {
-                        "x": -0.10806089,
-                        "y": -0.687496,
-                        "z": 0.046875555
-                    },
-                    {
-                        "x": -0.013434889,
-                        "y": -0.687496,
-                        "z": 0.11702134
-                    },
-                    {
-                        "x": -0.0,
-                        "y": 0.86,
-                        "z": 0.0
-                    },
-                    {
-                        "x": 0.047415778,
-                        "y": -0.142556,
-                        "z": 0.84341997
-                    },
-                    {
-                        "x": -0.70671535,
-                        "y": -0.142554,
-                        "z": 0.4627731
-                    },
-                    {
-                        "x": -0.7541309,
-                        "y": -0.142554,
-                        "z": -0.38064688
-                    },
-                    {
-                        "x": -0.047415778,
-                        "y": -0.142552,
-                        "z": -0.84341997
-                    },
-                    {
-                        "x": 0.70671535,
-                        "y": -0.142554,
-                        "z": -0.4627731
-                    },
-                    {
-                        "x": 0.7541309,
-                        "y": -0.142556,
-                        "z": 0.38064688
-                    }
-                ]
-            },
-            "density": 450.0,
-            "physicsMaterial": "Metal",
-            "sticky": "-Y",
-            "rotationSet": "PropY"
-        },
-        {
-            "uuid": "7c1c01b8-fd9f-4774-9c20-6ae640681103",
-            "renderable": {
-                "lodList": [
-                    {
-                        "subMeshList": [
-                            {
-                                "textureList": [
-                                    "$MOD_DATA/Objects/Textures/prop1D.png",
-                                    "$MOD_DATA/Objects/Textures/prop1A.png",
-                                    "$MOD_DATA/Objects/Textures/prop1N.png"
-                                ],
-                                "material": "DifAsgNor"
-                            }
-                        ],
-                        "mesh": "$MOD_DATA/Objects/Mesh/prop2cw.obj"
-                    }
-                ]
-            },
-            "scripted": {
-                "filename": "$MOD_DATA/Scripts/propeller.lua",
-                "classname": "Prop2_2"
-            },
-            "color": "191919",
-            "hull": {
-                "x": 9,
-                "y": 1,
-                "z": 9,
-                "margin": 0.05,
-                "pointList": [
-                    {
-                        "x": -0.094626,
-                        "y": -0.687496,
-                        "z": 0.070145555
-                    },
-                    {
-                        "x": -0.10806089,
-                        "y": -0.687496,
-                        "z": -0.046875555
-                    },
-                    {
-                        "x": -0.013434889,
-                        "y": -0.687496,
-                        "z": -0.11702134
-                    },
-                    {
-                        "x": 0.094626,
-                        "y": -0.687496,
-                        "z": -0.070145555
-                    },
-                    {
-                        "x": 0.10806089,
-                        "y": -0.687496,
-                        "z": 0.046875555
-                    },
-                    {
-                        "x": 0.013434889,
-                        "y": -0.687496,
-                        "z": 0.11702134
-                    },
-                    {
-                        "x": 0.0,
-                        "y": 0.86,
-                        "z": 0.0
-                    },
-                    {
-                        "x": -0.047415778,
-                        "y": -0.142556,
-                        "z": 0.84341997
-                    },
-                    {
-                        "x": 0.70671535,
-                        "y": -0.142554,
-                        "z": 0.4627731
-                    },
-                    {
-                        "x": 0.7541309,
-                        "y": -0.142554,
-                        "z": -0.38064688
-                    },
-                    {
-                        "x": 0.047415778,
-                        "y": -0.142552,
-                        "z": -0.84341997
-                    },
-                    {
-                        "x": -0.70671535,
-                        "y": -0.142554,
-                        "z": -0.4627731
-                    },
-                    {
-                        "x": -0.7541309,
-                        "y": -0.142556,
-                        "z": 0.38064688
-                    }
-                ]
-            },
-            "density": 450.0,
-            "physicsMaterial": "Metal",
-            "sticky": "-Y",
-            "rotationSet": "PropY"
         }
     ]
 }

@@ -1,0 +1,40 @@
+{
+    "partList": [
+        {
+            "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a200a",
+            "renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/chute1D.png",
+                                    "$MOD_DATA/Objects/Textures/chute1A.png",
+                                    "$MOD_DATA/Objects/Textures/chute1N.png"
+                                ],
+                                "material": "2PoseAnimDifAsgNor"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/chute1_0.obj",
+                        "pose0": "$MOD_DATA/Objects/Mesh/chute1_1.obj",
+                        "pose1": "$MOD_DATA/Objects/Mesh/chute1_2.obj"
+                    }
+                ]
+            },
+            "scripted": {
+                "filename": "$MOD_DATA/Scripts/chute.lua",
+                "classname": "Chute1"
+            },
+            "rotationSet": "PropZ",
+            "color": "EF3F39",
+            "box": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "density": 1000.0,
+            "physicsMaterial": "Plastic",
+            "sticky": "-Z"
+        }
+    ]
+}
