@@ -116,7 +116,7 @@
 		// Drogue Chute
 		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a200a",
 		"quantity": 1,
-		"craftTime": 10,
+		"craftTime": 18,
 		"ingredientList": [
 			{
 				"quantity": 20,
@@ -285,6 +285,342 @@
 			{
 				"quantity": 3,
 				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 2x2 Flat 2x1 Slanted Rounded Edge Major
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a504a",
+		"quantity": 1,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 4,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 2x2 Flat 2x1 Slanted Rounded Edge Minor
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a505a",
+		"quantity": 1,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 3,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 2x2 Flat Curved Rounded Edge Major
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a506a",
+		"quantity": 1,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 4,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 1x1 Flat Curved Rounded Edge Minor
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a507a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 1x1 Flat Rounded Edge
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a508a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 2x2 Flat 90° Curved Rounded Edge
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a509a",
+		"quantity": 1,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 4,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 2x2 Flat 2x1 Slanted Rounded Edge Major with recessed edge
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a510a",
+		"quantity": 1,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 4,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 1x1 Flat Rounded Edge with extruded edge
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a511a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 1x1 Lil' Nub
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a512a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
+			}
+		]
+	},
+	{
+		// Modular Wing 1x1 Flat Rounded 90° Curve
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a513a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 2x2 Flat 2x1 Slanted Rounded Edge Minor with recessed edge
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a514a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 1x1x1 T
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a515a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 1x1x1 T with rounded edges
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a516a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 1x1x1 L
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a517a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 1x1x1 L with rounded edges
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a518a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 1x1x1 X
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a519a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 1x1x1 X with rounded edge
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a520a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 1x1x1 X with rounded edges and flat front
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a521a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 1x1 Tapered
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a522a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 1x1 Tapered Asymmetrical
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a523a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 2x1 Tapered
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a524a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 2,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 2x1 Tapered Asymmetrical
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a525a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 2,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 3x3 Flat
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a526a",
+		"quantity": 1,
+		"craftTime": 4,
+		"ingredientList": [
+			{
+				"quantity": 9,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 4x4 Flat
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a527a",
+		"quantity": 1,
+		"craftTime": 8,
+		"ingredientList": [
+			{
+				"quantity": 16,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Two Blade Propeller CCW
+		"itemId": "7c1c01b8-fd9f-4774-9c20-6ae640681100",
+		"quantity": 1,
+		"craftTime": 12,
+		"ingredientList": [
+			{
+				"quantity": 5,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+			}
+		]
+	},
+	{
+		// Two Blade Propeller CW
+		"itemId": "7c1c01b8-fd9f-4774-9c20-6ae640681101",
+		"quantity": 1,
+		"craftTime": 12,
+		"ingredientList": [
+			{
+				"quantity": 5,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+			}
+		]
+	},
+	{
+		// Six Blade Propeller CCW
+		"itemId": "7c1c01b8-fd9f-4774-9c20-6ae640681102",
+		"quantity": 1,
+		"craftTime": 20,
+		"ingredientList": [
+			{
+				"quantity": 15,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+			}
+		]
+	},
+	{
+		// Six Blade Propeller CW
+		"itemId": "7c1c01b8-fd9f-4774-9c20-6ae640681103",
+		"quantity": 1,
+		"craftTime": 20,
+		"ingredientList": [
+			{
+				"quantity": 15,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
 			}
 		]
 	}
