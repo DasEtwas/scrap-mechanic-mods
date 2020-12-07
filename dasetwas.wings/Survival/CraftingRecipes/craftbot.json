@@ -1,0 +1,291 @@
+// this file is written by hand
+[
+	{
+		// Big Airfoil
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a100a",
+		"quantity": 1,
+		"craftTime": 8,
+		"ingredientList": [
+			{
+				"quantity": 16,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Small Airfoil
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a101a",
+		"quantity": 1,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 4,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Big Cardboard Airfoil
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a102a",
+		"quantity": 1,
+		"craftTime": 4,
+		"ingredientList": [
+			{
+				"quantity": 14,
+				"itemId": "f0cba95b-2dc4-4492-8fd9-36546a4cb5aa"
+			},
+			{
+				"quantity": 2,
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+			}
+		]
+	},
+	{
+		// Thin Big Airfoil
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a103a",
+		"quantity": 1,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 4,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Small Thin Airfoil
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a104a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Angled Small Thin Airfoil 15°
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a105a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Angled Small Thin Airfoil 30°
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a106a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Angled Small Thin Airfoil 45°
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a107a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Big Airfoil End
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a108a",
+		"quantity": 1,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 4,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Drogue Chute
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a200a",
+		"quantity": 1,
+		"craftTime": 10,
+		"ingredientList": [
+			{
+				"quantity": 20,
+				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
+			},
+			{
+				"quantity": 5,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+			},
+			{
+				"quantity": 2,
+				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
+			},
+			{
+				"quantity": 1,
+				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
+			}
+		]
+	},
+	{
+		// Thin Big Cardboard Airfoil
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a109a",
+		"quantity": 1,
+		"craftTime": 4,
+		"ingredientList": [
+			{
+				"quantity": 3,
+				"itemId": "f0cba95b-2dc4-4492-8fd9-36546a4cb5aa"
+			},
+			{
+				"quantity": 1,
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+			}
+		]
+	},
+	{
+		// Small Thin Cardboard Airfoil
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a110a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "f0cba95b-2dc4-4492-8fd9-36546a4cb5aa"
+			},
+			{
+				"quantity": 1,
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+			}
+		]
+	},
+	{
+		// Angled Small Thin Cardboard Airfoil 15°
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a111a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "f0cba95b-2dc4-4492-8fd9-36546a4cb5aa"
+			},
+			{
+				"quantity": 1,
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+			}
+		]
+	},
+	{
+		// Angled Small Thin Cardboard Airfoil 30°
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a112a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "f0cba95b-2dc4-4492-8fd9-36546a4cb5aa"
+			},
+			{
+				"quantity": 1,
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+			}
+		]
+	},
+	{
+		// Angled Small Thin Cardboard Airfoil 45°
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a113a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "f0cba95b-2dc4-4492-8fd9-36546a4cb5aa"
+			},
+			{
+				"quantity": 1,
+				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+			}
+		]
+	},
+	{
+		// Big Airfoil Connector
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a114a",
+		"quantity": 1,
+		"craftTime": 8,
+		"ingredientList": [
+			{
+				"quantity": 12,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Big Airfoil Stem
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a115a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 4,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 1x1 Flat
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a500a",
+		"quantity": 1,
+		"craftTime": 1,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 2x2 Flat
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a501a",
+		"quantity": 1,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 4,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 2x2 Flat Rounded Edge
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a502a",
+		"quantity": 1,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 4,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Modular Wing 2x2 Flat Slanted Rounded Edge
+		"itemId": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a503a",
+		"quantity": 1,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 3,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	}
+]
