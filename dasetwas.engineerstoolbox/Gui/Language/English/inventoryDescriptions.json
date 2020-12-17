@@ -1,0 +1,26 @@
+{
+    "4e3e3ef6-5fc0-4e8a-b07e-398d3d67100a": {
+        "title": "Creation Center of Mass Finder",
+        "description": "Switch through its 4 modes to display the Center of Mass of the creation it is built on."
+    },
+    "4e3e3ef6-5fc0-4e8a-b07e-398d3d67101a": {
+        "title": "Body Center of Mass Finder",
+        "description": "Switch through its 4 modes to display the Center of Mass of the local body it is built on."
+    },
+	"4e3e3ef6-5fc0-4e8a-b07e-398d3d67102a": {
+        "title": "Center of Thrust Finder",
+        "description": "Switch through its 4 modes to display the Center of Thrust at different multipliers of the creation it is built on. Only works with vanilla thrusters or thrusters that have the same thrust values and an animation for when the thrust level changes.\n#00AEFFMode 1: #FFFFFF 40000N/m\n#00AEFFMode 2: #FFFFFF 20000N/m\n#00AEFFMode 3: #FFFFFF 13333N/m\n#00AEFFMode 4: #FFFFFF 10000N/m"
+    },
+	"4e3e3ef6-5fc0-4e8a-b07e-398d3d67103a": {
+        "title": "Drag Reducer",
+        "description": "Normally, the game reduces the speed of any object in the world by 2.5%velocity every update frame. This block can be placed on a creation, to apply forces to compensate this \"drag\". As a result, the drag is only 0.0125%velocity/frame and thus allows gliding with planes or faster cars. May be placed multiple times on a creation, as only one is active."
+    },
+	"4e3e3ef6-5fc0-4e8a-b07e-398d3d67104a": {
+        "title": "Scale (Weight)",
+        "description": "When triggered with [Use], it logs the mass and weight in the console. Be sure to enable the console view with #00ff00/console #ffffff in the chat."
+    },
+	"4e3e3ef6-5fc0-4e8a-b07e-398d3d67105a": {
+        "title": "Thrust Scale",
+        "description": "When triggered with [Use], it logs the total average thrust (length of thrust vector sum), the mass that can be lifted vertically by the thrust and the Thrust/Weight ratio. Be sure to enable the console view with #00ff00/console #ffffff in the chat."
+    }
+}

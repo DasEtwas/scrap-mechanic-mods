@@ -1,4 +1,6 @@
 *
 !*/
 !/dasetwas.wings/**
+!/dasetwas.engineerstoolbox/**
 !.gitignore
+**/Cache

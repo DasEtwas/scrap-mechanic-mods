@@ -1,0 +1,178 @@
+{
+   "partList" : [
+		{
+			"uuid": "4e3e3ef6-5fc0-4e8a-b07e-398d3d67100a",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/ccomD.tga"
+								],
+								"material": "Dif"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/base.obj"
+					}
+				]
+			},
+            "scripted":
+			{
+				"filename": "$MOD_DATA/Scripts/indicators.lua",
+				"classname": "CoMIndicator"
+			},
+			"color": "49ff6b",
+			"box": { "x" : 1, "y": 1, "z": 1 },
+			"density": 100.0,
+			"physicsMaterial": "Metal",
+			"sticky": "-Z+Z+X-X+Y-Y",
+			"rotationSet": "PropXYZ"
+		},
+				{
+			"uuid": "4e3e3ef6-5fc0-4e8a-b07e-398d3d67101a",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/lcomD.tga"
+								],
+								"material": "Dif"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/base.obj"
+					}
+				]
+			},
+            "scripted":
+			{
+				"filename": "$MOD_DATA/Scripts/indicators.lua",
+				"classname": "LocalCoMIndicator"
+			},
+			"color": "5eb73a",
+			"box": { "x" : 1, "y": 1, "z": 1 },
+			"density": 100.0,
+			"physicsMaterial": "Metal",
+			"sticky": "-Z+Z+X-X+Y-Y",
+			"rotationSet": "PropXYZ"
+		},
+		{
+			"uuid": "4e3e3ef6-5fc0-4e8a-b07e-398d3d67102a",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/cotD.tga"
+								],
+								"material": "Dif"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/base.obj"
+					}
+				]
+			},
+            "scripted":
+			{
+				"filename": "$MOD_DATA/Scripts/indicators.lua",
+				"classname": "CoTIndicator"
+			},
+			"color": "20c5c9",
+			"box": { "x" : 1, "y": 1, "z": 1 },
+			"density": 100.0,
+			"physicsMaterial": "Metal",
+			"sticky": "-Z+Z+X-X+Y-Y",
+			"rotationSet": "PropXYZ"
+		},
+		{
+			"uuid": "4e3e3ef6-5fc0-4e8a-b07e-398d3d67103a",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/lessdragD.tga"
+								],
+								"material": "Dif"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/base.obj"
+					}
+				]
+			},
+            "scripted":
+			{
+				"filename": "$MOD_DATA/Scripts/physics.lua",
+				"classname": "Drag"
+			},
+			"color": "f7d84f",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 100.0,
+			"physicsMaterial": "Plastic",
+			"sticky": "-Z+Z-X+X-Y+Y",
+			"rotationSet": "PropXYZ"
+		},
+		{
+			"uuid": "4e3e3ef6-5fc0-4e8a-b07e-398d3d67104a",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/scaleD.tga"
+								],
+								"material": "Dif"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/base.obj"
+					}
+				]
+			},
+            "scripted":
+			{
+				"filename": "$MOD_DATA/Scripts/indicators.lua",
+				"classname": "Scale"
+			},
+			"color": "4471c4",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 100.0,
+			"physicsMaterial": "Plastic",
+			"sticky": "-Z+Z-X+X-Y+Y",
+			"rotationSet": "PropXYZ"
+		},
+		{
+			"uuid": "4e3e3ef6-5fc0-4e8a-b07e-398d3d67105a",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/thrustscaleD.tga"
+								],
+								"material": "Dif"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/base.obj"
+					}
+				]
+			},
+            "scripted":
+			{
+				"filename": "$MOD_DATA/Scripts/indicators.lua",
+				"classname": "ThrustScale"
+			},
+			"color": "597fc1",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 100.0,
+			"physicsMaterial": "Plastic",
+			"sticky": "-Z+Z-X+X-Y+Y",
+			"rotationSet": "PropXYZ"
+		}
+	]
+}
