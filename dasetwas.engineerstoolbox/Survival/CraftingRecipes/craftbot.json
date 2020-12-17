@@ -1,0 +1,46 @@
+[
+	{
+		// Creation CoM
+		"itemId": "4e3e3ef6-5fc0-4e8a-b07e-398d3d67100a",
+		"quantity": 1,
+		"craftTime": 20,
+		"ingredientList": [
+			{
+				"quantity": 3,
+				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
+			},
+			{
+				"quantity": 2,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Body CoM
+		"itemId": "4e3e3ef6-5fc0-4e8a-b07e-398d3d67101a",
+		"quantity": 1,
+		"craftTime": 11,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
+			},
+			{
+				"quantity": 2,
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		// Drag reducer
+		"itemId": "4e3e3ef6-5fc0-4e8a-b07e-398d3d67103a",
+		"quantity": 1,
+		"craftTime": 3,
+		"ingredientList": [
+			{
+				"quantity": 1,
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+			}
+		]
+	}
+]
