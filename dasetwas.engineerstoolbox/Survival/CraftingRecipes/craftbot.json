@@ -10,6 +10,10 @@
 				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
 			},
 			{
+				"quantity": 5,
+				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
+			},
+			{
 				"quantity": 2,
 				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
 			}
@@ -26,6 +30,10 @@
 				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
 			},
 			{
+				"quantity": 3,
+				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
+			},
+			{
 				"quantity": 2,
 				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
 			}
@@ -37,6 +45,10 @@
 		"quantity": 1,
 		"craftTime": 3,
 		"ingredientList": [
+			{
+				"quantity": 2,
+				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
+			},
 			{
 				"quantity": 1,
 				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
