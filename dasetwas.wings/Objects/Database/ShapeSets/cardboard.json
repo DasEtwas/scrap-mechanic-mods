@@ -100,7 +100,7 @@
             "physicsMaterial": "Cardboard",
             "qualityLevel": 1,
             "sticky": "-Z+Z",
-			"stackSize": 1,
+            "stackSize": 1,
             "rotationSet": "PropZ",
             "flammable": true
         },
@@ -204,7 +204,7 @@
             "physicsMaterial": "Cardboard",
             "qualityLevel": 1,
             "sticky": "-Z+Z",
-			"stackSize": 8,
+            "stackSize": 8,
             "rotationSet": "PropZ",
             "flammable": true
         },
@@ -298,7 +298,7 @@
             "physicsMaterial": "Cardboard",
             "qualityLevel": 1,
             "sticky": "-Z+Z",
-			"stackSize": 2,
+            "stackSize": 2,
             "rotationSet": "PropZ",
             "flammable": true
         },
@@ -402,7 +402,7 @@
             "physicsMaterial": "Cardboard",
             "qualityLevel": 1,
             "sticky": "-Z+Z",
-			"stackSize": 8,
+            "stackSize": 8,
             "rotationSet": "PropZZm",
             "flammable": true
         },
@@ -506,7 +506,7 @@
             "physicsMaterial": "Cardboard",
             "qualityLevel": 1,
             "sticky": "-Z+Z",
-			"stackSize": 8,
+            "stackSize": 8,
             "rotationSet": "PropZZm",
             "flammable": true
         },
@@ -610,7 +610,7 @@
             "physicsMaterial": "Cardboard",
             "qualityLevel": 1,
             "sticky": "-Z+Z",
-			"stackSize": 8,
+            "stackSize": 8,
             "rotationSet": "PropZ",
             "flammable": true
         }
