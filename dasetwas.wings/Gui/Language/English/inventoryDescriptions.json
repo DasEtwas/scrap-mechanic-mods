@@ -3,294 +3,294 @@
 	{
 		"title": "Big Airfoil",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing"],
-		"description": "Wings\n#FFFFFFArea: #97FF301.00#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nCan create lift or drag, but it depends on how you use it. Use it for the heavy lifting work."
+		"description": "Wings\n#FFFFFFArea: #97FF301.00#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nCan create lift or drag, but it depends on how you use it. Use it for the heavy lifting work."
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a101a":
 	{
 		"title": "Elongated Airfoil",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.25#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nCan create lift or drag, but it depends on how you use it."
+		"description": "Wings\n#FFFFFFArea: #97FF300.25#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nCan create lift or drag, but it depends on how you use it."
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a102a":
 	{
 		"title": "Big Cardboard Airfoil",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing"],
-		"description": "Wings\n#FFFFFFArea: #97FF301.00#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nKeep away from potatoes. Let the dogfights begin."
+		"description": "Wings\n#FFFFFFArea: #97FF301.00#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nKeep away from potatoes. Let the dogfights begin."
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a103a":
 	{
 		"title": "Thin Big Airfoil",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.25#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nUsed to fine tune the length of your wings."
+		"description": "Wings\n#FFFFFFArea: #97FF300.25#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nUsed to fine tune the length of your wings."
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a104a":
 	{
 		"title": "Small Airfoil",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nUsed to fine tune the length of your flaps."
+		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nUsed to fine tune the length of your flaps."
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a105a":
 	{
 		"title": "Angled Small Airfoil 15°",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nPerfect for making propellers which spin as fast as propellers should."
+		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nPerfect for making propellers which spin as fast as propellers should."
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a106a":
 	{
 		"title": "Angled Small Airfoil 30°",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nPerfect for making propellers which spin as fast as propellers should."
+		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nPerfect for making propellers which spin as fast as propellers should."
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a107a":
 	{
 		"title": "Angled Small Airfoil 45°",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nPerfect for making propellers which spin as fast as propellers should."
+		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nPerfect for making propellers which spin as fast as propellers should."
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a108a":
 	{
 		"title": "Big Airfoil End",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.25#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAt the end it was needed."
+		"description": "Wings\n#FFFFFFArea: #97FF300.25#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAt the end it was needed."
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a200a":
 	{
 		"title": "Drogue Chute",
-		"keywords": ["lift", "flap", "air", "airfoil", "wing"],
-		"description": "Wings\n#FF4E0228.0#FFFFFFm x #FF4E027.0#FFFFFFm\nUsed to slam into the ground at a bit lower speed.\nRepack: [Use] or remove connection"
+		"keywords": ["lift", "flap", "air", "wing", "chute", "parachute", "para"],
+		"description": "Wings\n#FFFFFFEffective area: #97FF3028.0#FFFFFFm²\n#FFFFFFExtension: ##9E9E9E7.0#FFFFFFm\nEffective air density: #2B7CFF2.25#FFFFFFkg/m³#909191\nUsed to slam into the ground at a bit lower speed.\nRepack: [Use] or remove connection"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a109a":
 	{
 		"title": "Thin Big Cardboard Airfoil",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.25#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nUsed to fine tune the length of your cardboard scrap pieces."
+		"description": "Wings\n#FFFFFFArea: #97FF300.25#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nUsed to fine tune the length of your cardboard scrap pieces."
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a110a":
 	{
 		"title": "Small Cardboard Airfoil",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nUsed to fine tune the length of your cardboard pieces."
+		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nUsed to fine tune the length of your cardboard pieces."
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a111a":
 	{
 		"title": "Small Cardboard Airfoil 15°",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nPerfect for making propellers which self-destruct when broken by spuds."
+		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nPerfect for making propellers which self-destruct when broken by spuds."
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a112a":
 	{
 		"title": "Small Cardboard Airfoil 30°",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nPerfect for making propellers which self-destruct when broken by spuds."
+		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nPerfect for making propellers which self-destruct when broken by spuds."
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a113a":
 	{
 		"title": "Small Cardboard Airfoil 45°",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nPerfect for making propellers which self-destruct when broken by spuds."
+		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nPerfect for making propellers which self-destruct when broken by spuds."
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a114a":
 	{
 		"title": "Big Airfoil Connector",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.65#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nMounting propellers, guns, bombs or landing gears has never been this stylish!"
+		"description": "Wings\n#FFFFFFArea: #97FF300.65#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nMounting propellers, guns, bombs or landing gears has never been this stylish!"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a115a":
 	{
 		"title": "Big Airfoil Stem",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.25#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nBe sure to nicely curve that wing!"
+		"description": "Wings\n#FFFFFFArea: #97FF300.25#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nBe sure to nicely curve that wing!"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a500a":
 	{
 		"title": "Airfoil 1x1",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 1x1"
+		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 1x1"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a501a":
 	{
 		"title": "Airfoil 2x2",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.25#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 2x2"
+		"description": "Wings\n#FFFFFFArea: #97FF300.25#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 2x2"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a502a":
 	{
 		"title": "Airfoil 2x2 Rounded",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.25#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 2x2 Rounded"
+		"description": "Wings\n#FFFFFFArea: #97FF300.25#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 2x2 Rounded"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a503a":
 	{
-		"title": "Airfoil 2x2 Slanted Rounded",
-		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular", "slanted"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.125#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 2x2 Slanted Rounded"
+		"title": "Airfoil 2x2 Diagonal Rounded",
+		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular", "slanted", "diag"],
+		"description": "Wings\n#FFFFFFArea: #97FF300.125#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 2x2 Slanted Rounded"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a504a":
 	{
-		"title": "Airfoil 2x[1/2] Slanted Rounded Major",
+		"title": "Airfoil 2x[1-2] Slanted Rounded Major",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular", "slanted"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.1875#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 2x2 2x1 Slanted Rounded Major"
+		"description": "Wings\n#FFFFFFArea: #97FF300.1875#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 2x2 2x1 Slanted Rounded Major"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a505a":
 	{
-		"title": "Airfoil 2x[1/2] Slanted Rounded Minor",
+		"title": "Airfoil 2x[1-2] Slanted Rounded Minor",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular", "minor", "slanted"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 2x2 2x1 Slanted Rounded Minor"
+		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 2x2 2x1 Slanted Rounded Minor"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a506a":
 	{
 		"title": "Airfoil 2x2 Curved Rounded Major",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.1875#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 2x2 Curved Rounded Major"
+		"description": "Wings\n#FFFFFFArea: #97FF300.1875#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 2x2 Curved Rounded Major"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a507a":
 	{
-		"title": "Airfoil 1x1 Curved Rounded Minor",
+		"title": "Airfoil 1x1 Rounded Corner Minor",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular", "minor"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 1x1 Curved Rounded Minor"
+		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 1x1 Curved Rounded Minor"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a508a":
 	{
 		"title": "Airfoil 1x1 Rounded",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 1x1 Rounded"
+		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 1x1 Rounded"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a509a":
 	{
-		"title": "Airfoil 2x2 Rounded Corner 90°",
+		"title": "Airfoil 2x2 Rounded Corner",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.1875#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 2x2 90° Curved Rounded"
+		"description": "Wings\n#FFFFFFArea: #97FF300.1875#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 2x2 90° Curved Rounded"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a510a":
 	{
-		"title": "Airfoil 2x[1/2] Slanted Rounded Major recessed",
+		"title": "Airfoil 2x[1-2] Slanted Rounded Major recessed",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular", "major", "slanted", "recessed"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.1875#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 2x2 2x1 Slanted Rounded Major recessed"
+		"description": "Wings\n#FFFFFFArea: #97FF300.1875#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 2x2 2x1 Slanted Rounded Major recessed"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a511a":
 	{
-		"title": "Airfoil 1x1 Rounded",
+		"title": "Airfoil 1x1 Rounded Major",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 1x1 Rounded"
+		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 1x1 Rounded"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a512a":
 	{
 		"title": "Airfoil 1x1 Lil' Nub",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular"],
-		"description": "Wings\n#FFFFFFArea: #97FF30----#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 1x1 Lil' Nub scurr"
+		"description": "Wings\n#FFFFFFArea: #97FF30----#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 1x1 Lil' Nub scurr"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a513a":
 	{
-		"title": "Airfoil 1x1 Rounded Corner 90°",
+		"title": "Airfoil 1x1 Rounded Corner",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 1x1 Rounded 90° Curve"
+		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 1x1 Rounded 90° Curve"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a514a":
 	{
-		"title": "Airfoil 2x[1/2] Slanted Rounded Minor recessed",
+		"title": "Airfoil 2x[1-2] Slanted Rounded Minor recessed",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular", "slanted", "minor", "recessed"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 2x2 2x1 Slanted Rounded Minor recessed"
+		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 2x2 2x1 Slanted Rounded Minor recessed"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a515a":
 	{
 		"title": "Wing piece T",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular", "cake"],
-		"description": "Wings\n#FFFFFFArea: #97FF30----#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 1x1x1 T\n\nThis piece does not have lift."
+		"description": "Wings\n#FFFFFFArea: #97FF30----#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 1x1x1 T\n\nThis piece does not have lift."
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a516a":
 	{
-		"title": "Wing piece T with Roundeds",
+		"title": "Wing piece T Rounded",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular"],
-		"description": "Wings\n#FFFFFFArea: #97FF30----#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 1x1x1 T with Roundeds\n\nThis piece does not have lift."
+		"description": "Wings\n#FFFFFFArea: #97FF30----#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 1x1x1 T Rounded\n\nThis piece does not have lift."
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a517a":
 	{
 		"title": "Wing piece L",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular"],
-		"description": "Wings\n#FFFFFFArea: #97FF30----#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 1x1x1 L\n\nThis piece does not have lift."
+		"description": "Wings\n#FFFFFFArea: #97FF30----#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 1x1x1 L\n\nThis piece does not have lift."
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a518a":
 	{
-		"title": "Wing piece L with Roundeds",
+		"title": "Wing piece L Rounded",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular"],
-		"description": "Wings\n#FFFFFFArea: #97FF30----#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 1x1x1 L with Roundeds\n\nThis piece does not have lift."
+		"description": "Wings\n#FFFFFFArea: #97FF30----#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 1x1x1 L Rounded\n\nThis piece does not have lift."
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a519a":
 	{
 		"title": "Wing piece X",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular"],
-		"description": "Wings\n#FFFFFFArea: #97FF30----#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 1x1x1 X\n\nThis piece does not have lift."
+		"description": "Wings\n#FFFFFFArea: #97FF30----#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 1x1x1 X\n\nThis piece does not have lift."
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a520a":
 	{
-		"title": "Wing piece X with Roundeds",
+		"title": "Wing piece X Rounded",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular"],
-		"description": "Wings\n#FFFFFFArea: #97FF30----#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 1x1x1 X with Roundeds\n\nThis piece does not have lift."
+		"description": "Wings\n#FFFFFFArea: #97FF30----#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 1x1x1 X Rounded\n\nThis piece does not have lift."
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a521a":
 	{
-		"title": "Wing piece X with Roundeds and front",
+		"title": "Wing piece X Rounded Flat face",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular"],
-		"description": "Wings\n#FFFFFFArea: #97FF30----#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 1x1x1 X with Roundeds and front\n\nThis piece does not have lift."
+		"description": "Wings\n#FFFFFFArea: #97FF30----#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 1x1x1 X Rounded and front\n\nThis piece does not have lift."
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a522a":
 	{
 		"title": "Airfoil 1x1 Tapered",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 1x1 Tapered"
+		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 1x1 Tapered"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a523a":
 	{
 		"title": "Airfoil 1x1 Tapered Asymmetrical",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 1x1 Tapered Asymmetrical"
+		"description": "Wings\n#FFFFFFArea: #97FF300.0625#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 1x1 Tapered Asymmetrical"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a524a":
 	{
 		"title": "Airfoil 2x1 Tapered",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.125#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 2x1 Tapered"
+		"description": "Wings\n#FFFFFFArea: #97FF300.125#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 2x1 Tapered"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a525a":
 	{
 		"title": "Airfoil 2x1 Tapered Asymmetrical",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.125#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 2x1 Tapered Asymmetrical"
+		"description": "Wings\n#FFFFFFArea: #97FF300.125#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 2x1 Tapered Asymmetrical"
 	},
 		"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a526a":
 	{
 		"title": "Airfoil 3x3",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular"],
-		"description": "Wings\n#FFFFFFArea: #97FF300.5625#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 3x3"
+		"description": "Wings\n#FFFFFFArea: #97FF300.5625#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 3x3"
 	},
 	"8e3e3ef6-5fc0-4e8a-b07e-398d3d6a527a":
 	{
 		"title": "Airfoil 4x4",
 		"keywords": ["lift", "flap", "air", "airfoil", "wing", "modular"],
-		"description": "Wings\n#FFFFFFArea: #97FF301.00#FFFFFFm²\nAir density: #2B7CFF2.75#FFFFFFkg/m³#FFFFFF\nAirfoil 4x4"
+		"description": "Wings\n#FFFFFFArea: #97FF301.00#FFFFFFm²\nEffective air density: #2B7CFF2.75#FFFFFFkg/m³#909191\nAirfoil 4x4"
 	},
 	"7c1c01b8-fd9f-4774-9c20-6ae640681100":
 	{
 		"title": "Two Blade Propeller CCW",
 		"keywords": ["prop", "propeller", "blade", "rotor"],
-		"description": "Wings\nRadius: #97FF301.125#FFFFFFm\nBlades: #2B7CFF2#FFFFFF\nAir density: #9E9E9E2.8#FFFFFFkg/m³\nSmall Two Blade Propeller CCW"
+		"description": "Wings\n#FFFFFFRadius: #97FF301.125#FFFFFFm\nBlades: #9E9E9E2#FFFFFF\nEffective air density: #2B7CFF2.8#FFFFFFkg/m³\nSmall Two Blade Propeller CCW"
 	},
 	"7c1c01b8-fd9f-4774-9c20-6ae640681101":
 	{
 		"title": "Two Blade Propeller CW",
 		"keywords": ["prop", "propeller", "blade", "rotor"],
-		"description": "Wings\nRadius: #97FF301.125#FFFFFFm\nBlades: #2B7CFF2#FFFFFF\nAir density: #9E9E9E2.8#FFFFFFkg/m³\nSmall Two Blade Propeller CW"
+		"description": "Wings\n#FFFFFFRadius: #97FF301.125#FFFFFFm\nBlades: #9E9E9E2#FFFFFF\nEffective air density: #2B7CFF2.8#FFFFFFkg/m³\nSmall Two Blade Propeller CW"
 	},
 	"7c1c01b8-fd9f-4774-9c20-6ae640681102":
 	{
 		"title": "Six Blade Propeller CCW",
 		"keywords": ["prop", "propeller", "blade", "rotor"],
-		"description": "Wings\nRadius: #97FF301.125#FFFFFFm\nBlades: #2B7CFF6#FFFFFF\nAir density: #9E9E9E2.8#FFFFFFkg/m³\nSmall Six Blade Propeller CCW"
+		"description": "Wings\n#FFFFFFRadius: #97FF301.125#FFFFFFm\nBlades: #9E9E9E6#FFFFFF\nEffective air density: #2B7CFF2.8#FFFFFFkg/m³\nSmall Six Blade Propeller CCW"
 	},
 	"7c1c01b8-fd9f-4774-9c20-6ae640681103":
 	{
 		"title": "Six Blade Propeller CW",
 		"keywords": ["prop", "propeller", "blade", "rotor"],
-		"description": "Wings\nRadius: #97FF301.125#FFFFFFm\nBlades: #2B7CFF6#FFFFFF\nAir density: #9E9E9E2.8#FFFFFFkg/m³\nSmall Six Blade Propeller CW"
+		"description": "Wings\n#FFFFFFRadius: #97FF301.125#FFFFFFm\nBlades: #9E9E9E6#FFFFFF\nEffective air density: #2B7CFF2.8#FFFFFFkg/m³\nSmall Six Blade Propeller CW"
 	}
 }

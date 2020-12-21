@@ -1596,6 +1596,290 @@
             "stackSize": 2,
             "rotationSet": "ModWing-Z-X+X"
         },
+		{
+            "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a513a",
+            "renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/modD.png",
+                                    "$MOD_DATA/Objects/Textures/modA.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/mod14.obj"
+                    }
+                ]
+            },
+            "scripted": {
+                "filename": "$MOD_DATA/Scripts/airfoil.lua",
+                "classname": "Airfoil",
+                "data": {
+                    "area": 0.0625,
+                    "angle": 0
+                }
+            },
+            "color": "c36512",
+            "hull": {
+                "x": 1,
+                "y": 1,
+                "z": 1,
+                "margin": 0.05,
+                "pointList": [
+                    {
+                        "x": -0.86,
+                        "y": 0.5,
+                        "z": -0.86
+                    },
+                    {
+                        "x": 0.36618,
+                        "y": 0.5,
+                        "z": -0.86
+                    },
+                    {
+                        "x": 0.36618,
+                        "y": -0.5,
+                        "z": -0.86
+                    },
+                    {
+                        "x": -0.86,
+                        "y": 0.5,
+                        "z": 0.36618
+                    },
+                    {
+                        "x": -0.86,
+                        "y": -0.5,
+                        "z": -0.86
+                    },
+                    {
+                        "x": -0.86,
+                        "y": -0.5,
+                        "z": 0.36618
+                    }
+                ]
+            },
+            "density": 120.0,
+            "physicsMaterial": "Metal",
+            "sticky": "-X-Z",
+            "stackSize": 8,
+            "rotationSet": "PropZ"
+        },
+		{
+            "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a509a",
+            "renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/modD.png",
+                                    "$MOD_DATA/Objects/Textures/modA.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/mod10.obj"
+                    }
+                ]
+            },
+            "scripted": {
+                "filename": "$MOD_DATA/Scripts/airfoil.lua",
+                "classname": "Airfoil",
+                "data": {
+                    "area": 0.1875,
+                    "angle": 0
+                }
+            },
+            "color": "c36512",
+            "hull": {
+                "x": 2,
+                "y": 1,
+                "z": 2,
+                "margin": 0.05,
+                "pointList": [
+                    {
+                        "x": 0.93,
+                        "y": 0.5,
+                        "z": -0.93
+                    },
+                    {
+                        "x": 0.93,
+                        "y": -0.5,
+                        "z": -0.93
+                    },
+                    {
+                        "x": -0.93,
+                        "y": 0.5,
+                        "z": -0.93
+                    },
+                    {
+                        "x": -0.93,
+                        "y": -0.5,
+                        "z": -0.93
+                    },
+                    {
+                        "x": -0.93,
+                        "y": -0.5,
+                        "z": 0.93
+                    },
+                    {
+                        "x": -0.93,
+                        "y": 0.5,
+                        "z": 0.93
+                    },
+                    {
+                        "x": 0.17557,
+                        "y": -0.5,
+                        "z": 0.618034
+                    },
+                    {
+                        "x": 0.618034,
+                        "y": -0.5,
+                        "z": 0.17557
+                    },
+                    {
+                        "x": 0.17557,
+                        "y": 0.5,
+                        "z": 0.618034
+                    },
+                    {
+                        "x": 0.618034,
+                        "y": 0.5,
+                        "z": 0.175571
+                    }
+                ]
+            },
+            "density": 120.0,
+            "physicsMaterial": "Metal",
+            "sticky": "-X-Z",
+            "stackSize": 2,
+            "rotationSet": "ModWing-X-Z"
+        },
+		{
+            "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a511a",
+            "renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/modD.png",
+                                    "$MOD_DATA/Objects/Textures/modA.png"
+                                ],
+                                "material": "DifAsg"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/mod12.obj"
+                    }
+                ]
+            },
+            "scripted": {
+                "filename": "$MOD_DATA/Scripts/airfoil.lua",
+                "classname": "Airfoil",
+                "data": {
+                    "area": 0.0625,
+                    "angle": 0
+                }
+            },
+            "color": "c36512",
+            "hull": {
+                "x": 1,
+                "y": 1,
+                "z": 1,
+                "margin": 0.05,
+                "pointList": [
+                    {
+                        "x": 0.86,
+                        "y": -0.5,
+                        "z": -0.86
+                    },
+                    {
+                        "x": -0.86,
+                        "y": -0.5,
+                        "z": -0.86
+                    },
+                    {
+                        "x": -0.86,
+                        "y": 0.5,
+                        "z": -0.86
+                    },
+                    {
+                        "x": 0.86,
+                        "y": 0.5,
+                        "z": -0.86
+                    },
+                    {
+                        "x": -0.86,
+                        "y": -0.5,
+                        "z": 0.86
+                    },
+                    {
+                        "x": -0.86,
+                        "y": 0.5,
+                        "z": 0.86
+                    },
+                    {
+                        "x": 0.86,
+                        "y": 0.5,
+                        "z": 0.0
+                    },
+                    {
+                        "x": 0.86,
+                        "y": -0.5,
+                        "z": -0.0
+                    },
+                    {
+                        "x": -0.86,
+                        "y": -0.5,
+                        "z": -0.86
+                    },
+                    {
+                        "x": 0.86,
+                        "y": -0.5,
+                        "z": -0.86
+                    },
+                    {
+                        "x": 0.86,
+                        "y": -0.5,
+                        "z": 0.86
+                    },
+                    {
+                        "x": -0.86,
+                        "y": -0.5,
+                        "z": 0.36618
+                    },
+                    {
+                        "x": 0.86,
+                        "y": 0.5,
+                        "z": -0.86
+                    },
+                    {
+                        "x": -0.86,
+                        "y": 0.5,
+                        "z": -0.86
+                    },
+                    {
+                        "x": -0.86,
+                        "y": 0.5,
+                        "z": 0.36618
+                    },
+                    {
+                        "x": 0.86,
+                        "y": 0.5,
+                        "z": 0.86
+                    }
+                ]
+            },
+            "density": 120.0,
+            "physicsMaterial": "Metal",
+            "sticky": "-Z-X+X",
+            "stackSize": 8,
+            "rotationSet": "ModWing-Z-X+XSlanted"
+        },
+		////////////////////////////////////////////////////////////////////////////////////////
         {
             "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a503a",
             "renderable": {
@@ -1819,7 +2103,7 @@
             "stackSize": 2,
             "rotationSet": "ModWing-Z-X+XSlanted"
         },
-        {
+		{
             "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a506a",
             "renderable": {
                 "lodList": [
@@ -1972,97 +2256,6 @@
             "rotationSet": "ModWing-X-Z"
         },
         {
-            "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a509a",
-            "renderable": {
-                "lodList": [
-                    {
-                        "subMeshList": [
-                            {
-                                "textureList": [
-                                    "$MOD_DATA/Objects/Textures/modD.png",
-                                    "$MOD_DATA/Objects/Textures/modA.png"
-                                ],
-                                "material": "DifAsg"
-                            }
-                        ],
-                        "mesh": "$MOD_DATA/Objects/Mesh/mod10.obj"
-                    }
-                ]
-            },
-            "scripted": {
-                "filename": "$MOD_DATA/Scripts/airfoil.lua",
-                "classname": "Airfoil",
-                "data": {
-                    "area": 0.1875,
-                    "angle": 0
-                }
-            },
-            "color": "c36512",
-            "hull": {
-                "x": 2,
-                "y": 1,
-                "z": 2,
-                "margin": 0.05,
-                "pointList": [
-                    {
-                        "x": 0.93,
-                        "y": 0.5,
-                        "z": -0.93
-                    },
-                    {
-                        "x": 0.93,
-                        "y": -0.5,
-                        "z": -0.93
-                    },
-                    {
-                        "x": -0.93,
-                        "y": 0.5,
-                        "z": -0.93
-                    },
-                    {
-                        "x": -0.93,
-                        "y": -0.5,
-                        "z": -0.93
-                    },
-                    {
-                        "x": -0.93,
-                        "y": -0.5,
-                        "z": 0.93
-                    },
-                    {
-                        "x": -0.93,
-                        "y": 0.5,
-                        "z": 0.93
-                    },
-                    {
-                        "x": 0.17557,
-                        "y": -0.5,
-                        "z": 0.618034
-                    },
-                    {
-                        "x": 0.618034,
-                        "y": -0.5,
-                        "z": 0.17557
-                    },
-                    {
-                        "x": 0.17557,
-                        "y": 0.5,
-                        "z": 0.618034
-                    },
-                    {
-                        "x": 0.618034,
-                        "y": 0.5,
-                        "z": 0.175571
-                    }
-                ]
-            },
-            "density": 120.0,
-            "physicsMaterial": "Metal",
-            "sticky": "-X-Z",
-            "stackSize": 2,
-            "rotationSet": "ModWing-X-Z"
-        },
-        {
             "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a510a",
             "renderable": {
                 "lodList": [
@@ -2144,7 +2337,7 @@
             "rotationSet": "ModWing-Z-X+XSlanted"
         },
         {
-            "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a511a",
+            "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a514a",
             "renderable": {
                 "lodList": [
                     {
@@ -2157,7 +2350,7 @@
                                 "material": "DifAsg"
                             }
                         ],
-                        "mesh": "$MOD_DATA/Objects/Mesh/mod12.obj"
+                        "mesh": "$MOD_DATA/Objects/Mesh/mod15.obj"
                     }
                 ]
             },
@@ -2171,100 +2364,50 @@
             },
             "color": "c36512",
             "hull": {
-                "x": 1,
+                "x": 2,
                 "y": 1,
                 "z": 1,
                 "margin": 0.05,
                 "pointList": [
                     {
-                        "x": 0.86,
+                        "x": 0.93,
                         "y": -0.5,
                         "z": -0.86
                     },
                     {
-                        "x": -0.86,
+                        "x": -0.93,
                         "y": -0.5,
                         "z": -0.86
                     },
                     {
-                        "x": -0.86,
+                        "x": -0.93,
                         "y": 0.5,
                         "z": -0.86
                     },
                     {
-                        "x": 0.86,
+                        "x": 0.93,
                         "y": 0.5,
                         "z": -0.86
                     },
                     {
-                        "x": -0.86,
-                        "y": -0.5,
-                        "z": 0.86
-                    },
-                    {
-                        "x": -0.86,
-                        "y": 0.5,
-                        "z": 0.86
-                    },
-                    {
-                        "x": 0.86,
-                        "y": 0.5,
-                        "z": 0.0
-                    },
-                    {
-                        "x": 0.86,
-                        "y": -0.5,
-                        "z": -0.0
-                    },
-                    {
-                        "x": -0.86,
-                        "y": -0.5,
-                        "z": -0.86
-                    },
-                    {
-                        "x": 0.86,
-                        "y": -0.5,
-                        "z": -0.86
-                    },
-                    {
-                        "x": 0.86,
-                        "y": -0.5,
-                        "z": 0.86
-                    },
-                    {
-                        "x": -0.86,
+                        "x": -0.93,
                         "y": -0.5,
                         "z": 0.36618
                     },
                     {
-                        "x": 0.86,
-                        "y": 0.5,
-                        "z": -0.86
-                    },
-                    {
-                        "x": -0.86,
-                        "y": 0.5,
-                        "z": -0.86
-                    },
-                    {
-                        "x": -0.86,
+                        "x": -0.93,
                         "y": 0.5,
                         "z": 0.36618
-                    },
-                    {
-                        "x": 0.86,
-                        "y": 0.5,
-                        "z": 0.86
                     }
                 ]
             },
             "density": 120.0,
             "physicsMaterial": "Metal",
-            "sticky": "-Z-X+X",
+            "sticky": "+X-Z-X",
             "stackSize": 8,
-            "rotationSet": "ModWing-Z-X+XSlanted"
+            "rotationSet": "ModWing-X-Z"
         },
-        {
+		{
             "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a512a",
             "renderable": {
                 "lodList": [
@@ -2350,148 +2493,6 @@
             "sticky": "+X-Z",
             "stackSize": 8,
             "rotationSet": "PropZ"
-        },
-        {
-            "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a513a",
-            "renderable": {
-                "lodList": [
-                    {
-                        "subMeshList": [
-                            {
-                                "textureList": [
-                                    "$MOD_DATA/Objects/Textures/modD.png",
-                                    "$MOD_DATA/Objects/Textures/modA.png"
-                                ],
-                                "material": "DifAsg"
-                            }
-                        ],
-                        "mesh": "$MOD_DATA/Objects/Mesh/mod14.obj"
-                    }
-                ]
-            },
-            "scripted": {
-                "filename": "$MOD_DATA/Scripts/airfoil.lua",
-                "classname": "Airfoil",
-                "data": {
-                    "area": 0.0625,
-                    "angle": 0
-                }
-            },
-            "color": "c36512",
-            "hull": {
-                "x": 1,
-                "y": 1,
-                "z": 1,
-                "margin": 0.05,
-                "pointList": [
-                    {
-                        "x": -0.86,
-                        "y": 0.5,
-                        "z": -0.86
-                    },
-                    {
-                        "x": 0.36618,
-                        "y": 0.5,
-                        "z": -0.86
-                    },
-                    {
-                        "x": 0.36618,
-                        "y": -0.5,
-                        "z": -0.86
-                    },
-                    {
-                        "x": -0.86,
-                        "y": 0.5,
-                        "z": 0.36618
-                    },
-                    {
-                        "x": -0.86,
-                        "y": -0.5,
-                        "z": -0.86
-                    },
-                    {
-                        "x": -0.86,
-                        "y": -0.5,
-                        "z": 0.36618
-                    }
-                ]
-            },
-            "density": 120.0,
-            "physicsMaterial": "Metal",
-            "sticky": "-X-Z",
-            "stackSize": 8,
-            "rotationSet": "PropZ"
-        },
-        {
-            "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a514a",
-            "renderable": {
-                "lodList": [
-                    {
-                        "subMeshList": [
-                            {
-                                "textureList": [
-                                    "$MOD_DATA/Objects/Textures/modD.png",
-                                    "$MOD_DATA/Objects/Textures/modA.png"
-                                ],
-                                "material": "DifAsg"
-                            }
-                        ],
-                        "mesh": "$MOD_DATA/Objects/Mesh/mod15.obj"
-                    }
-                ]
-            },
-            "scripted": {
-                "filename": "$MOD_DATA/Scripts/airfoil.lua",
-                "classname": "Airfoil",
-                "data": {
-                    "area": 0.0625,
-                    "angle": 0
-                }
-            },
-            "color": "c36512",
-            "hull": {
-                "x": 2,
-                "y": 1,
-                "z": 1,
-                "margin": 0.05,
-                "pointList": [
-                    {
-                        "x": 0.93,
-                        "y": -0.5,
-                        "z": -0.86
-                    },
-                    {
-                        "x": -0.93,
-                        "y": -0.5,
-                        "z": -0.86
-                    },
-                    {
-                        "x": -0.93,
-                        "y": 0.5,
-                        "z": -0.86
-                    },
-                    {
-                        "x": 0.93,
-                        "y": 0.5,
-                        "z": -0.86
-                    },
-                    {
-                        "x": -0.93,
-                        "y": -0.5,
-                        "z": 0.36618
-                    },
-                    {
-                        "x": -0.93,
-                        "y": 0.5,
-                        "z": 0.36618
-                    }
-                ]
-            },
-            "density": 120.0,
-            "physicsMaterial": "Metal",
-            "sticky": "+X-Z-X",
-            "stackSize": 8,
-            "rotationSet": "ModWing-X-Z"
         },
         {
             "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a515a",
