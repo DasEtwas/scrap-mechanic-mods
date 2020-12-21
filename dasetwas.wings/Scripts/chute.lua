@@ -11,16 +11,6 @@ chuteMaxAcc = 12 --m/s
 maxVel = 600 -- m/s
 maxAngVel = 0.7 -- rad/s
 
-function sign(num)
-	if num < 0 then
-		return -1
-	elseif num > 0 then
-		return 1
-	else
-		return 0
-	end
-end
-
 -- gets local pos from relative global-space pos
 function getLocal(shape, vec)
 	return sm.vec3.new(sm.shape.getRight(shape):dot(vec), sm.shape.getAt(shape):dot(vec), sm.shape.getUp(shape):dot(vec))
@@ -135,15 +125,19 @@ function Chute1.server_onFixedUpdate(self, dt)
 			local right = sm.shape.getRight(self.shape)
 			
 			local extendMult = math.pow(self.pos / self.size, 1.5) / (self.size / (self.size - 0.1)) + 0.1
-			
-			local upVel2 =  math.pow(globalVel:dot(up), 2)
-			local atVel2 = math.pow(globalVel:dot(at), 2)
-			local rightVel2 = math.pow(globalVel:dot(right), 2)
+
+			local upVel = globalVel:dot(up)
+			local atVel = globalVel:dot(at)
+			local rightVel = globalVel:dot(right)
+
+			local upVel2 = upVel * math.abs(upVel)
+			local atVel2 = atVel * math.abs(atVel)
+			local rightVel2 = rightVel * math.abs(rightVel)
 			local chuteForce = sm.vec3.new(0, 0, 0)
 			local fac1 = extendMult * self.area * chuteAirDensity * 0.5
-			chuteForce = chuteForce + at * fac1 * atVel2 * self.driftCoef * sign(globalVel:dot(at))
-			chuteForce = chuteForce + right * fac1 * rightVel2 * self.driftCoef * sign(globalVel:dot(right))
-			chuteForce = chuteForce - up * math.min(0, fac1 * upVel2 * self.dragCoef * sign(globalVel:dot(up)))
+			chuteForce = chuteForce + at * fac1 * atVel2 * self.driftCoef
+			chuteForce = chuteForce + right * fac1 * rightVel2 * self.driftCoef
+			chuteForce = chuteForce - up * math.min(0, fac1 * upVel2 * self.dragCoef
 			
 			self.pos = math.max(self.size * self.minDeploy, math.min(self.size, self.pos - globalVel:dot(sm.shape.getUp(self.shape)) * dt * self.windCoef - sm.shape.getUp(self.shape).z * 0.35 * dt))
 			self.poseWeight2 = self.pos / self.size

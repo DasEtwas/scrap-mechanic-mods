@@ -47,8 +47,9 @@ function propeller(self, dt)
 		local angvel = self.shape:getBody().angularVelocity:dot(globalForward)
 		local effwind = self.normalVel * self.windFac - angvel * self.mult
 		local absangvel = math.abs(angvel)
-		self.thrust = dt * airDensity * 0.5 * (self.radius * self.radius * absangvel / 2) * effwind * effwind * sign(effwind) * self.chord * self.numBlades * -1
-		self.torque = dt * self.radius / 2 * airDensity * 0.5 * (self.radius * self.radius * absangvel / 2) * effwind * effwind * sign(effwind) * self.chord * self.numBlades * sign(self.mult)
+		local effwind2 = effwind * math.abs(effwind)
+		self.thrust = dt * airDensity * 0.5 * (self.radius * self.radius * absangvel / 2) * effwind2 * self.chord * self.numBlades * -1
+		self.torque = dt * self.radius / 2 * airDensity * 0.5 * (self.radius * self.radius * absangvel / 2) * effwind2 * self.chord * self.numBlades * sign(self.mult)
 		--self.thrust = math.max(-maxForce, math.min(maxForce, self.thrust))
 		
 		--print(self.angle, self.thrust, self.torque, effwind)
