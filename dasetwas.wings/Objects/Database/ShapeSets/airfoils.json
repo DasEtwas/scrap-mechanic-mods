@@ -98,7 +98,8 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z+Z",
-            "rotationSet": "PropZ"
+            "rotationSet": "PropZ",
+			"stackSize": 1
         },
         {
             "uuid": "8e3e3ef6-5fc0-4e8a-b07e-398d3d6a104a",
@@ -198,6 +199,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z+Z",
+			"stackSize": 8,
             "rotationSet": "PropZ"
         },
         {
@@ -298,6 +300,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z+Z",
+			"stackSize": 2,
             "rotationSet": "PropZ"
         },
         {
@@ -388,6 +391,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z+Z",
+			"stackSize": 2,
             "rotationSet": "PropZ"
         },
         {
@@ -488,6 +492,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z+Z",
+			"stackSize": 8,
             "rotationSet": "PropZZm"
         },
         {
@@ -588,6 +593,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z+Z",
+			"stackSize": 8,
             "rotationSet": "PropZZm"
         },
         {
@@ -688,6 +694,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z+Z",
+			"stackSize": 8,
             "rotationSet": "PropZ"
         },
         {
@@ -828,6 +835,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z+Z",
+			"stackSize": 2,
             "rotationSet": "PropZZm"
         },
         {
@@ -978,6 +986,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z+Z-X+Y-Y",
+			"stackSize": 1,
             "rotationSet": "PropZ"
         },
         {
@@ -1098,6 +1107,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z+Z",
+			"stackSize": 2,
             "rotationSet": "PropZZm"
         },
         {
@@ -1178,6 +1188,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z+Z-X+X",
+			"stackSize": 8,
             "rotationSet": "PropZ"
         },
         {
@@ -1258,6 +1269,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z+Z-X+X",
+			"stackSize": 2,
             "rotationSet": "PropZ"
         },
         {
@@ -1338,6 +1350,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z+Z-X+X",
+			"stackSize": 1,
             "rotationSet": "PropZ"
         },
         {
@@ -1418,6 +1431,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z+Z-X+X",
+			"stackSize": 1,
             "rotationSet": "PropZ"
         },
         {
@@ -1498,6 +1512,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z-X+X",
+			"stackSize": 8,
             "rotationSet": "ModWing-Z-X+X"
         },
         {
@@ -1578,6 +1593,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z-X+X",
+			"stackSize": 2,
             "rotationSet": "ModWing-Z-X+X"
         },
         {
@@ -1648,6 +1664,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z-X+X",
+			"stackSize": 2,
             "rotationSet": "ModWing-Z-X+XSlanted"
         },
         {
@@ -1728,6 +1745,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z-X+X",
+			"stackSize": 2,
             "rotationSet": "ModWing-Z-X+XSlanted"
         },
         {
@@ -1798,6 +1816,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z-X+X",
+			"stackSize": 2,
             "rotationSet": "ModWing-Z-X+XSlanted"
         },
         {
@@ -1878,6 +1897,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z-X+X",
+			"stackSize": 2,
             "rotationSet": "ModWing-Z-X+XSlanted"
         },
         {
@@ -1948,6 +1968,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-X-Z",
+			"stackSize": 1,
             "rotationSet": "ModWing-X-Z"
         },
         {
@@ -2038,6 +2059,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-X-Z",
+			"stackSize": 2,
             "rotationSet": "ModWing-X-Z"
         },
         {
@@ -2118,6 +2140,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z-X+X",
+			"stackSize": 2,
             "rotationSet": "ModWing-Z-X+XSlanted"
         },
         {
@@ -2238,6 +2261,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z-X+X",
+			"stackSize": 8,
             "rotationSet": "ModWing-Z-X+XSlanted"
         },
         {
@@ -2324,6 +2348,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "+X-Z",
+			"stackSize": 8,
             "rotationSet": "PropZ"
         },
         {
@@ -2394,6 +2419,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-X-Z",
+			"stackSize": 8,
             "rotationSet": "PropZ"
         },
         {
@@ -2464,6 +2490,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "+X-Z-X",
+			"stackSize": 8,
             "rotationSet": "ModWing-X-Z"
         },
         {
@@ -2560,6 +2587,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "+X-X-Z+Y-Y",
+			"stackSize": 8,
             "rotationSet": "ModWing-Z-X+XSlanted"
         },
         {
@@ -2656,6 +2684,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "+X-X-Z-Y",
+			"stackSize": 8,
             "rotationSet": "ModWing-Z-X+XSlanted"
         },
         {
@@ -2742,6 +2771,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-X+Y-Y-Z",
+			"stackSize": 8,
             "rotationSet": "ModWing-X-Z"
         },
         {
@@ -2828,6 +2858,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-X-Y-Z",
+			"stackSize": 8,
             "rotationSet": "ModWing-X-Z"
         },
         {
@@ -2944,6 +2975,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "+X-X+Y-Y+Z-Z",
+			"stackSize": 8,
             "rotationSet": "ModWing-Z-X+XSlanted"
         },
         {
@@ -3060,6 +3092,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-X+Y-Y-Z+Z",
+			"stackSize": 8,
             "rotationSet": "ModWing-Z-X+XSlanted"
         },
         {
@@ -3176,6 +3209,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "+X-X+Y-Y+Z-Z",
+			"stackSize": 8,
             "rotationSet": "ModWing-Z-X+XSlanted"
         },
         {
@@ -3246,6 +3280,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z-X+X",
+			"stackSize": 8,
             "rotationSet": "ModWing-Z-X+X"
         },
         {
@@ -3316,6 +3351,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z-X+X-Y",
+			"stackSize": 8,
             "rotationSet": "ModWingTaperedAsym"
         },
         {
@@ -3386,6 +3422,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z-X+X",
+			"stackSize": 4,
             "rotationSet": "ModWing-Z-X+X"
         },
         {
@@ -3456,6 +3493,7 @@
             "density": 120.0,
             "physicsMaterial": "Metal",
             "sticky": "-Z-X+X-Y",
+			"stackSize": 4,
             "rotationSet": "ModWingTaperedAsym"
         }
     ]
