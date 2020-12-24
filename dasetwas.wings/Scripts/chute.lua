@@ -137,7 +137,7 @@ function Chute1.server_onFixedUpdate(self, dt)
 			local fac1 = extendMult * self.area * chuteAirDensity * 0.5
 			chuteForce = chuteForce + at * fac1 * atVel2 * self.driftCoef
 			chuteForce = chuteForce + right * fac1 * rightVel2 * self.driftCoef
-			chuteForce = chuteForce - up * math.min(0, fac1 * upVel2 * self.dragCoef
+			chuteForce = chuteForce - up * math.min(0, fac1 * upVel2 * self.dragCoef)
 			
 			self.pos = math.max(self.size * self.minDeploy, math.min(self.size, self.pos - globalVel:dot(sm.shape.getUp(self.shape)) * dt * self.windCoef - sm.shape.getUp(self.shape).z * 0.35 * dt))
 			self.poseWeight2 = self.pos / self.size
