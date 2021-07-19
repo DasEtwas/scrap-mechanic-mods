@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="BackgroundInteractableNarrow" position_real="0.423438 0.314815 0.148438 0.365741" name="KeyboardPanel">
+        <Widget type="TextBox" skin="TextBox" position_real="0.122807 0.0126582 0.747368 0.0886076" name="Title">
+            <Property key="FontName" value="ButtonCaptionSmall"/>
+            <Property key="Caption" value="Title"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 0.647059 0"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0.350877 0.232687 0"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.105263 0.113924 0.789474 0.189873" name="Info">
+            <Property key="FontName" value="ButtonCaptionSmall"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="TextColour" value="0.842105 0.842105 0.842105"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0.339181 0.339181 0.339181"/>
+            <Property key="Caption" value="Info"/>
+        </Widget>
+        <Widget type="EditBox" skin="EditBox_LiftInput" position_real="0.294737 0.316456 0.4 0.139241" name="Textbox">
+            <Property key="MultiLine" value="false"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="ButtonCaptionSmall"/>
+            <Property key="ReadOnly" value="true"/>
+            <Property key="VisibleHScroll" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="SecondaryButton" position_real="0.294737 0.567089 0.115789 0.0835443" name="1">
+            <Property key="Caption" value="1"/>
+            <Property key="FontName" value="ButtonCaptionSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="SecondaryButton" position_real="0.435088 0.567089 0.115789 0.0835443" name="2">
+            <Property key="Caption" value="2"/>
+            <Property key="FontName" value="ButtonCaptionSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="SecondaryButton" position_real="0.575439 0.567089 0.115789 0.0835443" name="3">
+            <Property key="Caption" value="3"/>
+            <Property key="FontName" value="ButtonCaptionSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="SecondaryButton" position_real="0.294737 0.668354 0.115789 0.0835443" name="4">
+            <Property key="Caption" value="4"/>
+            <Property key="FontName" value="ButtonCaptionSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="SecondaryButton" position_real="0.435088 0.668354 0.115789 0.0835443" name="5">
+            <Property key="Caption" value="5"/>
+            <Property key="FontName" value="ButtonCaptionSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="SecondaryButton" position_real="0.575439 0.668354 0.115789 0.0835443" name="6">
+            <Property key="Caption" value="6"/>
+            <Property key="FontName" value="ButtonCaptionSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="SecondaryButton" position_real="0.294737 0.772152 0.115789 0.0835443" name="7">
+            <Property key="Caption" value="7"/>
+            <Property key="FontName" value="ButtonCaptionSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="SecondaryButton" position_real="0.435088 0.772152 0.115789 0.0835443" name="8">
+            <Property key="Caption" value="8"/>
+            <Property key="FontName" value="ButtonCaptionSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="SecondaryButton" position_real="0.575439 0.772152 0.115789 0.0835443" name="9">
+            <Property key="Caption" value="9"/>
+            <Property key="FontName" value="ButtonCaptionSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="SecondaryButton" position_real="0.435088 0.873418 0.115789 0.0835443" name="0">
+            <Property key="Caption" value="0"/>
+            <Property key="FontName" value="ButtonCaptionSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="SecondaryButton" position_real="0.294737 0.465823 0.115789 0.0835443" name="Confirm">
+            <Property key="FontName" value="InterMedium24"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="Caption" value="✓"/>
+            <Property key="TextColour" value="0 1 0"/>
+        </Widget>
+        <Widget type="Button" skin="SecondaryButton" position_real="0.435088 0.465823 0.115789 0.0835443" name="Cancel">
+            <Property key="Caption" value="✗"/>
+            <Property key="FontName" value="InterMedium24"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 0 0"/>
+        </Widget>
+        <Widget type="Button" skin="SecondaryButton" position_real="0.575439 0.465823 0.115789 0.0835443" name="Clear">
+            <Property key="Caption" value="C"/>
+            <Property key="FontName" value="ButtonCaptionSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="SecondaryButton" position_real="0.715789 0.465823 0.115789 0.0835443" name="Backspace">
+            <Property key="Caption" value="←"/>
+            <Property key="FontName" value="InterMedium24"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+    </Widget>
+</MyGUI>

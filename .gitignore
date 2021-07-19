@@ -2,5 +2,8 @@
 !*/
 !/dasetwas.wings/**
 !/dasetwas.engineerstoolbox/**
+!/Syringe/**
+!/SyringeSource/**
+!LICENSE
 !.gitignore
 **/Cache

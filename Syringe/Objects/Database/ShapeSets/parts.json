@@ -1,0 +1,62 @@
+{
+   "partList" : [
+		{
+			"uuid": "d0beed77-c211-4fe1-87ec-c9291d040c36",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/peer.png"
+								],
+								"material": "Dif"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/base.obj"
+					}
+				]
+			},
+            "scripted":
+			{
+				"filename": "$MOD_DATA/Scripts/peer.lua",
+				"classname": "Peer"
+			},
+			"color": "2D2D2F",
+			"box": { "x" : 1, "y": 1, "z": 1 },
+			"density": 250.0,
+			"physicsMaterial": "Metal",
+			"sticky": "-Z+Z+X-X+Y-Y",
+			"rotationSet": "PropXYZ"
+		},
+		{
+			"uuid": "d0beed77-c211-4fe1-87ec-c9291d040c37",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/servo.png"
+								],
+								"material": "Dif"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/base.obj"
+					}
+				]
+			},
+            "scripted":
+			{
+				"filename": "$MOD_DATA/Scripts/servo.lua",
+				"classname": "Servo"
+			},
+			"color": "354C07",
+			"box": { "x" : 1, "y": 1, "z": 1 },
+			"density": 250.0,
+			"physicsMaterial": "Metal",
+			"sticky": "-Z+Z+X-X+Y-Y",
+			"rotationSet": "PropXYZ"
+		}
+	]
+}

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="BackgroundEngineNoUpgrade" position_real="0.369792 0.308333 0.259375 0.455556" name="MainPanelFuelNoUpgrade">
+        <Property key="NeedKey" value="false"/>
+        <Property key="NeedMouse" value="true"/>
+        <Property key="InheritsAlpha" value="false"/>
+        <Widget type="TextBox" skin="TextBox" position_real="0.0983936 0.0894309 0.789157 0.0670732" name="Title">
+            <Property key="Caption" value="SERVO ACTUATOR"/>
+            <Property key="FontName" value="SM_HeaderLarge_Wide"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.0983936 0.178862 0.323293 0.0487805" name="SubTitle">
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 0.803922 0.247059"/>
+            <Property key="FontName" value="SM_SubHeader"/>
+            <Property key="Caption" value="Deflection"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.564257 0.178862 0.311245 0.0487805" name="SubTitle">
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 0.803922 0.247059"/>
+            <Property key="FontName" value="SM_SubHeader"/>
+            <Property key="Caption" value="Offset"/>
+        </Widget>
+		<Widget type="Widget" skin="PanelEmpty" name="MainPanel" position_real="0 0 1 1">
+        <Widget type="Widget" skin="PanelEmpty" position_real="0.682731 0.252033 0.104418 0.506098" name="Deflection">
+            <Property key="NeedKey" value="false"/>
+            <Widget type="Widget" skin="LargeVerticalSliderBackground" position_real="0.0769231 0.0281125 0.615385 0.935743" name="Background">
+                <Property key="NeedKey" value="false"/>
+                <Property key="NeedMouse" value="true"/>
+            </Widget>
+            <Widget type="Widget" skin="LargeVerticalSliderProgress" position_real="0.0769231 0.445783 0.615385 0.502008" name="Progress">
+                <Property key="NeedMouse" value="false"/>
+                <Property key="NeedKey" value="false"/>
+            </Widget>
+            <Widget type="Widget" skin="LargeVerticalSliderInnerShadow" position_real="0.0192308 0.0281125 0.692308 0.943775">
+                <Property key="NeedKey" value="false"/>
+                <Property key="NeedMouse" value="false"/>
+            </Widget>
+            <Widget type="Button" skin="LargeHorizontalSliderHandleNoPoint" position_real="-0.115385 0.783133 1 0.136546" name="Handle">
+                <Property key="FontName" value="Default"/>
+                <Property key="NeedKey" value="false"/>
+            </Widget>
+        </Widget>
+		</Widget>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0.220884 0.252033 0.104418 0.506098" name="Deflection">
+            <Property key="NeedKey" value="false"/>
+            <Widget type="Widget" skin="LargeVerticalSliderBackground" position_real="0.0769231 0.0281125 0.615385 0.935743" name="Background">
+                <Property key="NeedKey" value="false"/>
+                <Property key="NeedMouse" value="true"/>
+            </Widget>
+            <Widget type="Widget" skin="LargeVerticalSliderProgress" position_real="0.0769231 0.445783 0.615385 0.502008" name="Progress">
+                <Property key="NeedMouse" value="false"/>
+                <Property key="NeedKey" value="false"/>
+            </Widget>
+            <Widget type="Widget" skin="LargeVerticalSliderInnerShadow" position_real="0.0192308 0.0281125 0.692308 0.943775">
+                <Property key="NeedKey" value="false"/>
+                <Property key="NeedMouse" value="false"/>
+            </Widget>
+            <Widget type="Button" skin="LargeHorizontalSliderHandleNoPoint" position_real="-0.115385 0.787149 1 0.136546" name="Handle">
+                <Property key="FontName" value="Default"/>
+                <Property key="NeedKey" value="false"/>
+            </Widget>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.0983936 0.806911 0.323293 0.0487805" name="DeflectionInfo">
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="SM_LabelSmall"/>
+            <Property key="Caption" value="10°"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.560241 0.810976 0.323293 0.0487805" name="OffsetInfo">
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="SM_LabelSmall"/>
+            <Property key="Caption" value="10°"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>
