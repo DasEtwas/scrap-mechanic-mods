@@ -8,12 +8,32 @@ ServoWidget.offset = nil
 local function generateCallbacks(scriptedShape, instance)
     scriptedShape.gui_servoSliderDeflection = function (shape, sliderName, sliderPos)
         instance.deflection = sliderPos
-		instance.onConfirmCallback({ deflection = instance.deflection, offset = instance.offset })
+		instance.onChangeCallback({ deflection = instance.deflection, offset = instance.offset })
     end
 
     scriptedShape.gui_servoSliderOffset = function (shape, sliderName, sliderPos)
         instance.offset = sliderPos
-		instance.onConfirmCallback({ deflection = instance.deflection, offset = instance.offset })
+		instance.onChangeCallback({ deflection = instance.deflection, offset = instance.offset })
+    end
+	
+	scriptedShape.gui_servoDeflectionIncrease = function (shape, button)
+        instance.deflection = math.min(instance.steps.deflection, instance.deflection + 1)
+		instance.onChangeCallback({ deflection = instance.deflection, offset = instance.offset })
+    end
+	
+	scriptedShape.gui_servoDeflectionDecrease = function (shape, button)
+        instance.deflection = math.max(0, instance.deflection - 1)
+		instance.onChangeCallback({ deflection = instance.deflection, offset = instance.offset })
+    end
+	
+	scriptedShape.gui_servoOffsetIncrease = function (shape, button)
+        instance.offset = math.min(instance.steps.offset, instance.offset + 1)
+		instance.onChangeCallback({ deflection = instance.deflection, offset = instance.offset })
+    end
+	
+	scriptedShape.gui_servoOffsetDecrease = function (shape, button)
+        instance.offset = math.max(0, instance.offset - 1)
+		instance.onChangeCallback({ deflection = instance.deflection, offset = instance.offset })
     end
 
     scriptedShape.gui_servoCloseCallback = function (shape)
@@ -23,7 +43,14 @@ end
 
 local function setCallbacks(instance)
 	instance.gui:setSliderCallback("Deflection", "gui_servoSliderDeflection")
-	--instance.gui:setSliderCallback("Offset", "gui_servoSliderOffset")
+	instance.gui:setSliderCallback("Offset", "gui_servoSliderOffset")
+	
+	instance.gui:setButtonCallback("DeflectionIncrease", "gui_servoDeflectionIncrease")
+	instance.gui:setButtonCallback("DeflectionDecrease", "gui_servoDeflectionDecrease")
+
+	instance.gui:setButtonCallback("OffsetIncrease", "gui_servoOffsetIncrease")
+	instance.gui:setButtonCallback("OffsetDecrease", "gui_servoOffsetDecrease")
+	
     instance.gui:setOnCloseCallback("gui_servoCloseCallback")
 end
 
@@ -33,15 +60,19 @@ function ServoWidget.new(scriptedShape, initial, steps, onChangeCallback)
 	assert(steps.deflection ~= nil and steps.offset ~= nil, "Invalid step count table passed.")
 
     local instance = ServoWidget()
+	instance.offset = initial.offset
+	instance.deflection = initial.deflection
     instance.scriptedShape = scriptedShape
     instance.gui = sm.gui.createGuiFromLayout("$MOD_DATA/Scripts/Sm-Keyboard/Gui/ServoWidget.layout")
 
+	-- TODO: reenable sliders when they work
+	instance.gui:setVisible("Deflection", false)
+	--instance.gui:setSliderData("Deflection", steps.deflection, initial.deflection)
+	instance.gui:setVisible("Offset", false)
+	--instance.gui:setSliderData("Offset", steps.offset, initial.offset)
+	
+	instance.steps = steps
 
-	
-	instance.gui:setSliderData("Deflection", steps.deflection,  initial.deflection)
-	instance.gui:setSliderRangeLimit("Deflection", steps.deflection)
-	--instance.gui:setSliderData("Offset", steps.offset,  math.min(steps.offset, math.max(0, math.floor(initial.offset))))
-	
 	instance.onChangeCallback = onChangeCallback
 
     generateCallbacks(scriptedShape, instance)

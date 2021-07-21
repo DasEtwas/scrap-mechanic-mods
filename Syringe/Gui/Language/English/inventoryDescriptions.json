@@ -9,6 +9,6 @@
 	{
 		"title": "Servo",
 		"description": "Turns bearings according to the input power value.",
-		"keywords": [ "controller", "injector", "peer", "bearing", "smart", "syringe" ]
+		"keywords": [ "controller", "injector", "peer", "bearing", "smart", "syringe", "steer" ]
 	}
 }

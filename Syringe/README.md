@@ -106,3 +106,6 @@ Cancels the currently running scan.
 			
 ## Disclaimer
 This application strives to be safe as it checks the delimiter of a Peer before writing, but due to the random nature of the game's garbage collection in Lua, latencies introduced by WinAPI, the time between making the check and writing memory, etc. there is a very small chance of crashing the game by literally writing into addresses at the wrong time. When this happens, you may roll a dice to tell you what will happen. Always have backups.
+
+## Credits
+* UI Base code (MPL-2.0): https://github.com/Sheggies/Sm-Keyboard/
