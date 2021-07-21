@@ -557,7 +557,9 @@ impl Injector {
                         game.read()
                             .read_vec((gc_tab_pointer as usize + 16) as *const usize, 1)
                             .ok()
-                            .map(|vec| vec[0] + 8)
+                            .map(|vec| vec[0])
+                            .filter(|table_array_ptr| *table_array_ptr != usize::MAX)
+                            .map(|table_array_ptr| table_array_ptr + 8)
                     })
                     .collect::<Vec<_>>();
 

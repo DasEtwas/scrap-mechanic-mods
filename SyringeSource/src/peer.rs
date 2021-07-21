@@ -119,12 +119,10 @@ impl Peer {
 
         self.channel = (channel - 5000.0).floor().min(u32::MAX as f64).max(0.0) as u32;
 
-        if output != NO_OUTPUT_VALUE {
-            // write channel output
-            // Channels.setOut(script.channel, script.out);
-            self.output = Some(output);
-        } else {
+        if output == NO_OUTPUT_VALUE {
             self.output = None;
+        } else {
+            self.output = Some(output);
         }
 
         self.red = red.min(1.0).max(0.0);

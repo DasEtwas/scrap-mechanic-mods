@@ -5,6 +5,7 @@ Copyright (C) 2019 DasEtwas & Brent Batch
 dofile("Sm-Keyboard/Scripts/PeerWidget.lua")
 
 NO_OUTPUT_VALUE = -5.75469999999999994422213214208E29
+NO_INPUT_VALUE = -3.14678168466178684178E29
 
 Peer = class(nil)
 Peer.maxParentCount = 2
@@ -73,14 +74,14 @@ end
 
 function Peer.client_onFixedUpdate(self, dt)
 	local parents = self.interactable:getParents()
-	local acceptInput = true
-	local writeOutput = true
-	local seat = nil
-	local seatFound = false
+
+	local isLocalPlayerSeated = false
+	self.controllingPlayer = nil
 	
-	-- prevent LuaJIT from deduplicating the data table of peers because we want
-	-- every peer to have its own data table. thus, we corrupt the delimiter
-	-- on every tick. sminject.exe allows for a certain number of wrong delimiter
+	-- prevent LuaJIT from deduplicating the data table of peers; because we want
+	-- every peer to have its own data table, we corrupt the delimiter
+	-- on every tick to discourage all peers sharing one table.
+	-- sminject.exe allows for a certain number of wrong delimiter
 	-- values (eg. 2) while scanning for peers.
 	if self.randomIndex then
 		self.data[self.randomIndex] = delimiter[self.randomIndex]
@@ -89,28 +90,31 @@ function Peer.client_onFixedUpdate(self, dt)
 	self.data[self.randomIndex] = math.random()
 	local h = { h = self.data[self.randomIndex] }
 	
-	for k, v in pairs(parents) do
-		if (v:getType() == "seat") or (v:getType() == "steering") then
-			if not v:isActive() then
-				acceptInput = false
-				self.out_ = 0
-				writeOutput = false
+	for _, interactable in pairs(parents) do
+		local character = interactable:getSeatCharacter()
+		if character then
+			if character:getPlayer() then
+				self.controllingPlayer = character:getPlayer()
+				
+				if character:getPlayer():getId() == sm.localPlayer.getId() then
+					isLocalPlayerSeated = true
+				end
 			end
-			seatFound = true
-			seat = v
 		else
-			if v:isActive() then
+			-- input signal
+			if interactable:isActive() then
+				-- logic input
 				self.out_ = 1
 			else
-				self.out_ = v:getPower()
+				-- 0 for logic input or else power
+				self.out_ = interactable:getPower()
 			end    
 		end
 	end
 
 	if #parents <= 1 then
 		-- this peer is not connected to at least a seat and input
-		writeOutput = false
-		self.out_ = 0
+		self.out_ = NO_OUTPUT_VALUE
 	end
 
 	local myAddress = self:client_dataAddress()
@@ -123,15 +127,20 @@ function Peer.client_onFixedUpdate(self, dt)
 	end
 
 	self.data[delimiterSize + 1] = self.channel + 5000.0
-	if acceptInput then
+	if isLocalPlayerSeated then
 		self.in_ = self.data[delimiterSize + 2]
+		
+		if self.in_ ~= self.lastin  then	
+			-- The player in the seat is the one of the client running this very code, so we tell the server to
+			-- update the value of the peer for the server (and implicitly every other client).
+			self.network:sendToServer("server_setValue", self.in_)
+			print("sending to server: " .. self.in_)
+		end
 	else
-		self.in_ = 0
+		-- used for UI
+		self.in_ = NO_INPUT_VALUE
 	end
-	if not writeOutput then
-		-- no output available
-		self.out_ = NO_OUTPUT_VALUE
-	end
+
 	self.data[delimiterSize + 3] = self.out_
 	
 	local color = sm.shape.getColor(self.shape)
@@ -143,28 +152,6 @@ function Peer.client_onFixedUpdate(self, dt)
 	self.data[delimiterSize + 9] = self.shape:getId()
 	self.data[delimiterSize + 10] = self.peerPoolIndex
 	
-	if self.in_ ~= self.lastin and seat then
-		--check for closest player to seat and check if it's the localPlayer
-		local closestplayerid = nil
-		local closestdistance = math.huge
-		for key, player in pairs(sm.player.getAllPlayers()) do
-			local exists, msg = pcall(playerexists, player)
-			if exists then
-				local distance = (seat:getShape().worldPosition - player.character.worldPosition):length()
-				if not closestplayerid or closestdistance > distance then
-					closestplayerid = player.id
-					closestdistance = distance
-				end
-			end
-		end
-		
-		if closestplayerid ~= nil and closestplayerid == sm.localPlayer.getId() then
-			-- The player in the seat is the one of the client running this very code, so we tell the server to
-			-- update the value of the peer for the server (and implicitly every other client).
-			self.network:sendToServer("server_setValue", self.in_)
-		end
-	end
-
 	self.lastin = self.in_
 end
 
@@ -204,7 +191,15 @@ end
 
 function Peer.client_onUpdate(self, dt)
 	if self.keypad then
-		self.keypad:setInfo("#D6D6D6output: " .. ((self.out_ == NO_OUTPUT_VALUE) and "#FF4830no inputs connected\nor no connected seat is occupied" or math.floor(self.out_ * 1000.0 + 0.5) / 1000.0) .. "\n#D6D6D6input: " .. math.floor(self.in_ * 1000.0 + 0.5) / 1000.0)
+		self.keypad:setInfo(
+			"#D6D6D6output: " .. ((self.out_ == NO_OUTPUT_VALUE) and "#FF4830no inputs connected" or math.floor(self.out_ * 1000.0 + 0.5) / 1000.0) ..
+			(self.controllingPlayer and 
+				("\n#D6D6D6input: " .. (math.floor(((self.in_ == NO_INPUT_VALUE) and self.interactable:getPower() or self.in_) * 1000.0 + 0.5) / 1000.0) ..
+				"\nControlled by: #FFFFFF" .. self.controllingPlayer:getName())
+			 or
+				"\n#D6D6D6input: #FF4830no player"
+			)
+		)
 	end
 end
 
