@@ -134,7 +134,7 @@ function Peer.client_onFixedUpdate(self, dt)
 			-- The player in the seat is the one of the client running this very code, so we tell the server to
 			-- update the value of the peer for the server (and implicitly every other client).
 			self.network:sendToServer("server_setValue", self.in_)
-			print("sending to server: " .. self.in_)
+			--print("sending to server: " .. self.in_)
 		end
 	else
 		-- used for UI
