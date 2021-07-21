@@ -43,16 +43,14 @@ function Servo.server_onFixedUpdate(self, dt)
 	
 	if self.in_ > 1 then self.in_ = 1 end
 	if self.in_ < -1 then self.in_ = -1 end
-
-	self.out_ = self.in_ * self.deflection + self.offset
 	
-	local outRad = math.rad(self.out_)
+	local target = math.rad(self.in_ * self.deflection + self.offset)
 	
-	for k, v in pairs(self.interactable:getBearings()) do
-		sm.joint.setTargetAngle(v, outRad, 14, 15000)
+	for _, bearing in pairs(self.interactable:getBearings()) do
+		--                      bearing, angle, velocity, impulsed
+		-- vanilla seat steering speed: 2
+		sm.joint.setTargetAngle(bearing, target, 8, 3500)
     end
-	
-	self.lastout = self.out_
 end
 
 function Servo.server_onCreate(self) 
@@ -74,11 +72,11 @@ function Servo.client_onInteract(self, character, lookingAt)
 		self.servoGui = ServoWidget.new(self,
 			{
 				deflection = math.min(18, math.max(0, math.floor(self.deflection / 5))), 
-				offset = math.min(36, math.max(0, math.floor((self.offset + 45)/ 2.5))), 
+				offset = math.min(36, math.max(0, math.floor((self.offset + 45) / 2.5))), 
 			},
 			{
 				deflection = 18, 
-				offset = 36, 
+				offset = 36,
 			},
 			function (onChangeValue)
 				-- sanitize

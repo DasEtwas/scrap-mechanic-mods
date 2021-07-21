@@ -565,7 +565,7 @@ impl Injector {
 
                 if table_addresses.is_empty() {
                     if !scan_time_warning_printed {
-                        println!("No existing valid peers could be used to find other peer's pointers directly. Searching may take significant time. Use the abort scan packet to interrupt scanning.")
+                        println!("No existing valid peers could be used to find other peers' pointers directly. Searching may take significant time. Use the abort scan packet to interrupt scanning.")
                     }
 
                     scan_time_warning_printed = true;
