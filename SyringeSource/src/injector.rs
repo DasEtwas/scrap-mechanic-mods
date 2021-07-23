@@ -547,7 +547,9 @@ impl Injector {
                     .map(|(_i, ptr)| ptr)
                     .collect::<Vec<u64>>();
 
-                // LuaJIT (x64) src/lj_obj.h->GCTab,MRef
+                // https://www.percona.com/community-blog/2020/04/29/the-anatomy-of-luajit-tables-and-whats-special-about-them/
+                // https://github.com/LuaJIT/LuaJIT/blob/v2.1/src/lj_obj.h#L495
+                // https://github.com/LuaJIT/LuaJIT/blob/v2.1/src/lj_obj.h#L27
                 // in the Lua mod we print the Peer.data table, resulting in something like: "table: 0x02472939D"
                 // we follow the pointer chain:
                 // "table: 0x02472939D" (0x02472939D) -> GCTab + 16 -> array data at index zero + 8 -> first array element
